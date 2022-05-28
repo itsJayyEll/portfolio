@@ -4,7 +4,9 @@ const HomePage = ({ title }) => {
   document.title = title + "Home";
   return (
     <>
-      <div>Home Page</div>
+      <div className="mx-8 flex jusitfy-center">
+        <div>Home Page</div>
+      </div>
     </>
   );
 };

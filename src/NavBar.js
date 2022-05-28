@@ -16,13 +16,13 @@ const NavBar = () => {
           </div>
           <div className="flex gap-4 items-center text-lg font-bold">
             <Link
-              to="/practicum"
+              to="/profile"
               className="px-5 py-2 rounded-full focus:outline-none focus:bg-suisei-yellow focus:text-suisei-blue  hover:bg-suisei-yellow hover:text-suisei-blue"
             >
               Profile
             </Link>
             <Link
-              to="/practicum"
+              to="/projects"
               className="px-5 py-2 rounded-full focus:outline-none focus:bg-suisei-yellow focus:text-suisei-blue  hover:bg-suisei-yellow hover:text-suisei-blue"
             >
               Projects
@@ -34,13 +34,13 @@ const NavBar = () => {
               Practicum
             </Link>
             <Link
-              to="/practicum"
+              to="/contact"
               className="px-5 py-2 rounded-full focus:outline-none focus:bg-suisei-yellow focus:text-suisei-blue  hover:bg-suisei-yellow hover:text-suisei-blue"
             >
               Contact
             </Link>
             <Link
-              to="/practicum"
+              to="/about"
               className="px-5 py-2 rounded-full focus:outline-none focus:bg-suisei-yellow focus:text-suisei-blue  hover:bg-suisei-yellow hover:text-suisei-blue"
             >
               About
