@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
-import { Carousel as NativeCarousel } from "/static/lib/ui@4.0/carousel.esm.js";
+import { Carousel as NativeCarousel } from "@fancyapps/ui/dist/fancybox.esm.js";
 
-import "/static/lib/ui@4.0/carousel.css";
+import "@fancyapps/ui/dist/carousel.css";
 
 function ReactCarousel(props) {
   const wrapper = useRef(null);

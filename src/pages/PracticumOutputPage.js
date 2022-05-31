@@ -1,5 +1,6 @@
 import React from "react";
 import Fancybox from "../components/Fancybox";
+import Carousel from "../components/Carousel";
 import reactComponent1 from "../images/screenshots/React-Components-Screenshot-1.png";
 
 const PracticumOutputPage = ({ title }) => {
@@ -14,6 +15,10 @@ const PracticumOutputPage = ({ title }) => {
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <h2 className="text-3xl font-bold">LinkedIn Learning</h2>
             <p></p>
+            <Carousel
+              items={["<div>test</div>", "2", "3", "4", "5"]}
+              options={{ infinite: false }}
+            />
             <Fancybox options={{ infinite: false }}>
               <div className="">
                 <button data-fancybox data-src={reactComponent1}>
