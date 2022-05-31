@@ -1,4 +1,5 @@
 import React from "react";
+import Fancybox from "../components/Fancybox";
 
 const PracticumOutputPage = ({ title }) => {
   document.title = title + "Practicum Output";
@@ -11,6 +12,9 @@ const PracticumOutputPage = ({ title }) => {
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <h2 className="text-3xl font-bold">LinkedIn Learning</h2>
             <p></p>
+            <Fancybox options={{ infinite: false }}>
+              <a></a>
+            </Fancybox>
           </div>
         </div>
       </div>
