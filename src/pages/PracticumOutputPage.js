@@ -1,8 +1,10 @@
 import React from "react";
 import Fancybox from "../components/Fancybox";
+import reactComponent1 from "../images/screenshots/React-Components-Screenshot-1.png";
 
 const PracticumOutputPage = ({ title }) => {
   document.title = title + "Practicum Output";
+
   return (
     <>
       <div className="mx-64 mt-8 mb-32 flex flex-col gap-8">
@@ -13,7 +15,14 @@ const PracticumOutputPage = ({ title }) => {
             <h2 className="text-3xl font-bold">LinkedIn Learning</h2>
             <p></p>
             <Fancybox options={{ infinite: false }}>
-              <a></a>
+              <div className="">
+                <button data-fancybox data-src={reactComponent1}>
+                  <img
+                    alt="React Component Screenshot 1"
+                    src={reactComponent1}
+                  ></img>
+                </button>
+              </div>
             </Fancybox>
           </div>
         </div>
