@@ -7,9 +7,10 @@ import aws from "../images/aws.png";
 
 const PracticumPage = ({ title }) => {
   document.title = title + "Practicum Overview";
+  document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-64 mt-8 mb-32 flex flex-col gap-8">
+      <div className="mx-64 mt-8 mb-32 flex flex-col gap-8 text-justify">
         <h1 className="font-display text-4xl">Overview of Practicum</h1>
         <div className="mx-8 flex flex-col gap-8">
           {/* LinkedIn Learning */}
@@ -336,7 +337,7 @@ const PracticumPage = ({ title }) => {
                   </a>
                 </p>
                 <h3 className="text-2xl font-bold">Courses</h3>
-                <div className="mx-4 grid grid-cols-4 gap-4">
+                <div className="mx-4 grid grid-cols-4 gap-4 text-left">
                   <a
                     href="https://awseducate.instructure.com/courses/744"
                     target="_blank"
@@ -515,7 +516,7 @@ const PracticumPage = ({ title }) => {
           {/* Next Button */}
           <div className="flex flex-row-reverse">
             <Link
-              to="/practicum/outputs"
+              to="/practicum-outputs"
               className="font-display text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-8 items-center transition ease-in-out hover:scale-105 duration-300"
             >
               Next ▶

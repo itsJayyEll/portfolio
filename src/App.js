@@ -14,16 +14,15 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage title={title} />} />
-        <Route path="/practicum">
-          <Route
-            path="overview"
-            element={<PracticumOverviewPage title={title} />}
-          />
-          <Route
-            path="outputs"
-            element={<PracticumOutputPage title={title} />}
-          />
-        </Route>
+        <Route
+          path="/practicum-overview"
+          element={<PracticumOverviewPage title={title} />}
+        />
+
+        <Route
+          path="/practicum-outputs"
+          element={<PracticumOutputPage title={title} />}
+        />
         <Route path="*" element={<NotFoundPage title={title} />} />
       </Routes>
     </>

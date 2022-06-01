@@ -28,7 +28,7 @@ const NavBar = () => {
               Projects
             </Link>
             <Link
-              to="/practicum"
+              to="/practicum-overview"
               className="px-5 py-2 rounded-full focus:outline-none focus:bg-suisei-yellow focus:text-suisei-blue  hover:bg-suisei-yellow hover:text-suisei-blue"
             >
               Practicum
