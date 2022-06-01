@@ -12,3 +12,13 @@ body {
   background-position: top center;
   color: #ffffff;
 }
+
+.carousel {
+  height: 360px;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
