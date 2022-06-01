@@ -7,7 +7,7 @@ import PracticumOverviewPage from "./pages/PracticumOverviewPage";
 import PracticumSynthesisPage from "./pages/PracticumSynthesisPage";
 
 const App = () => {
-  const title = "itsJayyEll Portfolio | ";
+  const title = " | itsJayyEll Portfolio";
 
   return (
     <>

@@ -20,12 +20,12 @@ import awsCompletion from "../images/screenshots/AWS-Completion.png";
 import awsBadge from "../images/screenshots/AWS-Badge.png";
 
 const PracticumOutputPage = ({ title }) => {
-  document.title = title + "Practicum Output";
+  document.title = "Practicum Outputs" + title;
   document.documentElement.scrollTo(0, 0);
   return (
     <>
       <div className="mx-64 mt-8 mb-32 flex flex-col gap-8">
-        <h1 className="font-display text-4xl">Outputs</h1>
+        <h1 className="font-display text-4xl">Presentation of Outputs</h1>
         <div className="mx-8 flex flex-col gap-8">
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8">
             <h2 className="text-3xl font-bold">LinkedIn Learning</h2>

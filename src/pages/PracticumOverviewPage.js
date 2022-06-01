@@ -6,7 +6,7 @@ import accenture from "../images/accenture.png";
 import aws from "../images/aws.png";
 
 const PracticumPage = ({ title }) => {
-  document.title = title + "Practicum Overview";
+  document.title = "Overview of Practicum" + title;
   document.documentElement.scrollTo(0, 0);
   return (
     <>
