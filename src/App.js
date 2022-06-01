@@ -3,8 +3,8 @@ import NavBar from "./NavBar";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import PracticumOutputPage from "./pages/PracticumOutputPage";
-import PracticumPage from "./pages/PracticumPage";
 import PracticumOverviewPage from "./pages/PracticumOverviewPage";
+import PracticumSynthesisPage from "./pages/PracticumSynthesisPage";
 
 const App = () => {
   const title = "itsJayyEll Portfolio | ";
@@ -22,6 +22,10 @@ const App = () => {
         <Route
           path="/practicum-outputs"
           element={<PracticumOutputPage title={title} />}
+        />
+        <Route
+          path="/practicum-synthesis"
+          element={<PracticumSynthesisPage title={title} />}
         />
         <Route path="*" element={<NotFoundPage title={title} />} />
       </Routes>
