@@ -15,6 +15,8 @@ module.exports = {
       "suisei-yellow": "#c49c6d",
       "aws-cloud": "#63BFB3",
       "aws-develop": "#C9208A",
+      facebook: "#1877F2",
+      linkedin: "#0077B5",
     },
     fontFamily: {
       sans: ['"Baloo Bhaijaan 2"'],
