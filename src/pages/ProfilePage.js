@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 const ProfilePage = ({ title }) => {
-  document.title = "Page Not Found" + title;
+  document.title = "Profile" + title;
   document.documentElement.scrollTo(0, 0);
   return (
     <>
