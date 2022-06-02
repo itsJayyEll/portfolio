@@ -16,7 +16,7 @@ const PracticumSynthesisPage = ({ title }) => {
               From all the learnings I have gained throughout this practicum, it
               can be categorized into three types of learnings.
             </p>
-            <p>
+            <p className="indent-4">
               The first type of learning is professional knowledge. This is
               learning about the mindsets to take into consideration when
               engaging in a project with other team members. This includes
@@ -30,15 +30,15 @@ const PracticumSynthesisPage = ({ title }) => {
               nature. The agile approach is appropriate when you don't know what
               the solution to a problem is and would require an iterative
               process to reach a conclusion and often involves the customer more
-              than the traditional approach. Workplace Management deals with
-              developing the necessary communication skills that are essential
-              in both cooperating in a team and leading a team project. This is
-              done with developing interpersonal or internal communication,
-              developing trust with your team, building relationships with
-              clients and business partners, non-verbal communication, and being
-              approachable and tact.
+              than the traditional approach. Workplace Management which deals
+              with developing the necessary communication skills that are
+              essential in both cooperating in a team and leading a team
+              project. This is done with developing interpersonal or internal
+              communication, developing trust with your team, building
+              relationships with clients and business partners, non-verbal
+              communication, and being approachable and tact.
             </p>
-            <p>
+            <p className="indent-4">
               The second type of learning is practical knowledge. Aside from the
               programming basics such as HTML, CSS, and JavaScript, there were
               some topics covered that I overlooked when learning web
@@ -48,12 +48,35 @@ const PracticumSynthesisPage = ({ title }) => {
               adding alt tags to images for screen readers, adding skip to
               content, optimizing delivery of images for data constraint users.
               This is where I also learned about building a Full-Stack website
-              using the React JavaScript Framework. This webpage is a testament
+              using the React JavaScript Framework. This website is a testament
               to what I have learned throughout my practicum specialization
-              module. Aside from that I have also learned the basic concepts of
-              Git, Cloud Computing, and Machine Learning.
+              module.
             </p>
-            <p></p>
+            <p className="indent-4">
+              The third type of learning is theoretical knowledge. This tackles
+              the learnings that I can apply further into my career as an IT
+              graduate. This includes the core concept of cloud computing in
+              general and why businesses are migrating to a cloud-based
+              solution, the benefits of AWS cloud computing and the core
+              services that they offer. This also includes an immersion in the
+              basic concepts of Git, Cloud Computing, and Machine Learning.
+            </p>
+            <p className="indent-4">
+              During my immersion in this practicum program, I have realized
+              that IT has various paths to take moving forward into my career.
+              This can range from software development, management, and
+              administrative tasks to future innovations such as cloud computing
+              and machine learning or Artificial Intelligence (AI).
+            </p>
+            <p className="indent-4">
+              At the end of this practicum engagement, there were subjects that
+              were tackled that are refreshers to what I currently learned
+              throughout my time in college. But there were also new topics
+              covered that showcases an aspect of Information Technology which
+              is that it is a continuous learning experience. You never stop
+              learning IT because there is always something new to learn about
+              and create.
+            </p>
           </div>
 
           {/* Back and Next Button */}
