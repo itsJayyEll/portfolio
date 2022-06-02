@@ -6,6 +6,7 @@ import PracticumOutputPage from "./pages/PracticumOutputPage";
 import PracticumOverviewPage from "./pages/PracticumOverviewPage";
 import PracticumSynthesisPage from "./pages/PracticumSynthesisPage";
 import PracticumAppendixPage from "./pages/PracticumAppendixPage";
+import ProfilePage from "./pages/ProfilePage";
 
 const App = () => {
   const title = " | itsJayyEll Portfolio";
@@ -15,6 +16,7 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage title={title} />} />
+        <Route path="/profile" element={<ProfilePage title={title} />} />
         <Route
           path="/practicum-overview"
           element={<PracticumOverviewPage title={title} />}
