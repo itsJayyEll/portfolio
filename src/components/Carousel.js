@@ -19,7 +19,7 @@ function ReactCarousel(props) {
     return () => {
       instance.destroy();
     };
-  }, []);
+  });
 
   return <div className={`carousel ${props.class || ""}`} ref={wrapper}></div>;
 }

@@ -8,7 +8,7 @@ const NotFoundPage = ({ title }) => {
   return (
     <>
       <div className="absolute top-0 left-0 -z-50 flex flex-col gap-2 lg:gap-16 lg:flex-row justify-center items-center h-screen w-screen">
-        <figure className="lg:h-[572px] h-[429px]">
+        <figure className="2xl:h-[572px] 2xl:w-[501px] md:h-[429px] md:w-[376px] h-[286px] w-[250.5px]">
           <img
             src={Suisei404}
             alt="Hoshimachi Suisei sad chibi page not found"

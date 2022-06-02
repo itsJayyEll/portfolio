@@ -24,7 +24,7 @@ const PracticumOutputPage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-64 mt-8 mb-32 flex flex-col gap-8">
+      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-8">
         <h1 className="font-display text-4xl">Presentation of Outputs</h1>
         <div className="mx-8 flex flex-col gap-8">
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8">
@@ -33,51 +33,52 @@ const PracticumOutputPage = ({ title }) => {
               Here is a few screenshots and detailed discussions of the output
               from my specialization modules
             </p>
-
             <Carousel
+              className="select-none"
               items={[
-                `<button data-fancybox data-src=${javascriptEssentials1} data-caption="This is a sample activity in JavaScript Essential Training by Morten Rand-Hendriksen">
-                    <img src=${javascriptEssentials1}></img>
-                  </button>`,
-                `<button data-fancybox data-src=${javascriptEssentials2} data-caption="It requires to code a simple HTML textbox and button that can change the strap length of each backpack">
-                    <img src=${javascriptEssentials2}></img>
-                  </button>`,
-                `<button data-fancybox data-src=${javascriptEssentials3} data-caption="It requires to apply learning from JavaScript Objects to differentiate both backpacks and straps">
-                    <img src=${javascriptEssentials3}></img>
-                  </button>`,
-                `<button data-fancybox data-src=${reactComponent1} data-caption="This is a sample layout of React framework in React.js Essential Training (2020) by Eve Porcello">
-                    <img src=${reactComponent1}></img>
-                  </button>`,
-                `<button data-fancybox data-src=${reactEssentialsGit1} data-caption="I've applied my learning in Git Essential Training: The Basics by Kevin Skoglund">
-                  <img src=${reactEssentialsGit1}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactEssentialsGit2} data-caption="Here is a one-line version of the git log in the sample React layout"> 
-                  <img src=${reactEssentialsGit2}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactInterface1} data-caption="In React.js: Building an Interface by Ray Villalobos, React JS Framework is combined with the CSS Framework TailwindCSS">
-                  <img src=${reactInterface1}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactInterfaceGit1} data-caption="Here is the git log of the React interface">
-                  <img src=${reactInterfaceGit1}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactFullStack1} data-caption="This is the output of the course React: Creating and Hosting a Full-Stack Site by Shaun Wassell">
-                  <img src=${reactFullStack1}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactFullStack2} data-caption="It combines almost everything I have learned in the specialization module in full stack development: Building a React application, installing TailwindCSS, configuring routes using ReactRouter, handling data with MongoDB backend">
-                  <img src=${reactFullStack2}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactFullStack3} data-caption="This articles page is a component I made in React that can be used in other parts of the site">
-                  <img src=${reactFullStack3}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactFullStack4} data-caption="This is a sample article that uses a backend data to handle upvotes, names, and comments in MongoDB">
-                  <img src=${reactFullStack4}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactFullStack5} data-caption="I reused the articles component on an article page">
-                  <img src=${reactFullStack5}></img>
-                </button>`,
-                `<button data-fancybox data-src=${reactFullStack6} data-caption="This is a the backend code of the full-stack website using MongoDB">
-                  <img src=${reactFullStack6}></img>
-                </button>`,
+                `<div data-fancybox data-src=${javascriptEssentials1} data-caption="This is a sample activity in JavaScript Essential Training by Morten Rand-Hendriksen">
+                    <div style="background-image:url(${javascriptEssentials1});">
+                    </div>
+                  </div>`,
+                `<div data-fancybox data-src=${javascriptEssentials2} data-caption="It requires to code a simple HTML textbox and button that can change the strap length of each backpack">
+                    <div style="background-image:url(${javascriptEssentials2});"></div>
+                  </div>`,
+                `<div data-fancybox data-src=${javascriptEssentials3} data-caption="It requires to apply learning from JavaScript Objects to differentiate both backpacks and straps">
+                    <div style="background-image:url(${javascriptEssentials3});"></div>
+                  </div>`,
+                `<div data-fancybox data-src=${reactComponent1} data-caption="This is a sample layout of React framework in React.js Essential Training (2020) by Eve Porcello">
+                    <div style="background-image:url(${reactComponent1});"></div>
+                  </div>`,
+                `<div data-fancybox data-src=${reactEssentialsGit1} data-caption="I've applied my learning in Git Essential Training: The Basics by Kevin Skoglund">
+                  <div style="background-image:url(${reactEssentialsGit1});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactEssentialsGit2} data-caption="Here is a one-line version of the git log in the sample React layout"> 
+                  <div style="background-image:url(${reactEssentialsGit2});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactInterface1} data-caption="In React.js: Building an Interface by Ray Villalobos, React JS Framework is combined with the CSS Framework TailwindCSS">
+                  <div style="background-image:url(${reactInterface1});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactInterfaceGit1} data-caption="Here is the git log of the React interface">
+                  <div style="background-image:url(${reactInterfaceGit1});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactFullStack1} data-caption="This is the output of the course React: Creating and Hosting a Full-Stack Site by Shaun Wassell">
+                  <div style="background-image:url(${reactFullStack1});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactFullStack2} data-caption="It combines almost everything I have learned in the specialization module in full stack development: Building a React application, installing TailwindCSS, configuring routes using ReactRouter, handling data with MongoDB backend">
+                  <div style="background-image:url(${reactFullStack2});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactFullStack3} data-caption="This articles page is a component I made in React that can be used in other parts of the site">
+                  <div style="background-image:url(${reactFullStack3});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactFullStack4} data-caption="This is a sample article that uses a backend data to handle upvotes, names, and comments in MongoDB">
+                  <div style="background-image:url(${reactFullStack4});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactFullStack5} data-caption="I reused the articles component on an article page">
+                  <div style="background-image:url(${reactFullStack5});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactFullStack6} data-caption="This is a the backend code of the full-stack website using MongoDB">
+                  <div style="background-image:url(${reactFullStack6});"></div>
+                </div>`,
               ]}
               options={{ slidesPerPage: 1, center: true }}
             />
@@ -234,14 +235,14 @@ const PracticumOutputPage = ({ title }) => {
           <div className="flex justify-between">
             <Link
               to="/practicum-overview"
-              className="font-display text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-8 items-center transition ease-in-out hover:scale-105 duration-300"
+              className="font-display text-xl lg:text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-4 lg:p-8 items-center transition ease-in-out hover:scale-105 duration-300"
             >
               ◀ Overview
             </Link>
 
             <Link
               to="/practicum-synthesis"
-              className="font-display text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-8 items-center transition ease-in-out hover:scale-105 duration-300"
+              className="font-display text-xl lg:text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-4 lg:p-8 items-center transition ease-in-out hover:scale-105 duration-300"
             >
               Synthesis ▶
             </Link>

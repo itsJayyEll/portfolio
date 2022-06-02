@@ -6,7 +6,7 @@ const PracticumSynthesisPage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-64 mt-8 mb-32 flex flex-col gap-8">
+      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-8">
         <h1 className="font-display text-4xl">
           Synthesis of Practicum Engagement
         </h1>
@@ -83,14 +83,14 @@ const PracticumSynthesisPage = ({ title }) => {
           <div className="flex justify-between">
             <Link
               to="/practicum-outputs"
-              className="font-display text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-8 items-center transition ease-in-out hover:scale-105 duration-300"
+              className="font-display text-xl lg:text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-4 lg:p-8 items-center transition ease-in-out hover:scale-105 duration-300"
             >
               ◀ Outputs
             </Link>
 
             <Link
               to="/practicum-appendix"
-              className="font-display text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-8 items-center transition ease-in-out hover:scale-105 duration-300"
+              className="font-display text-xl lg:text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-4 lg:p-8 items-center transition ease-in-out hover:scale-105 duration-300"
             >
               Appendices ▶
             </Link>

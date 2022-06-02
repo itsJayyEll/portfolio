@@ -10,20 +10,22 @@ const PracticumPage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-64 mt-8 mb-32 flex flex-col gap-8 text-justify">
+      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-8">
         <h1 className="font-display text-4xl">Overview of Practicum</h1>
         <div className="mx-8 flex flex-col gap-8">
           {/* LinkedIn Learning */}
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
-            <div className="flex flex-row gap-8">
-              <figure className="flex shrink-0 justify-center items-center bg-white rounded-full w-48 h-48 px-6">
-                <img alt="Linkedin Learning logo" src={linkedin} />
-              </figure>
+            <div className="flex flex-col lg:flex-row gap-8">
+              <div className="flex justify-center items-start">
+                <figure className="flex shrink-0 justify-center items-center bg-white rounded-full w-48 h-48 px-6">
+                  <img alt="Linkedin Learning logo" src={linkedin} />
+                </figure>
+              </div>
               <div className="flex flex-col gap-2">
                 <h2 className="text-3xl font-bold">
                   LinkedIn Learning Certifications
                 </h2>
-                <p>
+                <p className="text-justify">
                   LinkedIn Learning is an American online learning provider. It
                   provides video courses taught by industry experts in software,
                   creative, and business skills. It is a subsidiary of LinkedIn.
@@ -39,10 +41,10 @@ const PracticumPage = ({ title }) => {
                   </a>
                 </p>
                 {/* Modules */}
-                <div className="flex gap-8">
+                <div className="flex flex-col lg:flex-row gap-2 lg:gap-8">
                   <div className="flex flex-col">
                     <h3 className="text-2xl font-bold">Required Modules</h3>
-                    <ol className="list-decimal list-inside">
+                    <ol className="list-decimal list-inside ml-4 lg:ml-0">
                       <li>Design Thinking Learning Module</li>
                       <ul className="ml-4 list-disc list-inside text-suisei-yellow">
                         <li>
@@ -162,7 +164,7 @@ const PracticumPage = ({ title }) => {
                     <h3 className="text-2xl font-bold">
                       Specialization Modules
                     </h3>
-                    <ol className="list-decimal list-inside">
+                    <ol className="list-decimal list-inside ml-4 lg:ml-0">
                       <li>Full-Stack Web Development</li>
                       <ul className="ml-4 list-disc list-inside text-suisei-yellow">
                         <li>
@@ -266,7 +268,8 @@ const PracticumPage = ({ title }) => {
               </div>
             </div>
 
-            <div className="flex gap-8 justify-center">
+            {/* Summary */}
+            <div className="flex flex-col lg:flex-row gap-8 justify-center">
               <div className="flex flex-col items-center">
                 <h3 className="text-2xl font-bold">Platform used</h3>
                 <figure className="flex justify-center items-center bg-white rounded-full w-48 h-16 px-6">
@@ -296,15 +299,17 @@ const PracticumPage = ({ title }) => {
 
           {/* Accenture */}
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
-            <div className="flex flex-row gap-8">
-              <figure className=" flex shrink-0 justify-center items-center bg-white rounded-full w-48 h-48 px-6">
-                <img alt="Accenture logo" src={accenture} />
-              </figure>
+            <div className="flex flex-col lg:flex-row gap-8">
+              <div className="flex justify-center items-start">
+                <figure className=" flex shrink-0 justify-center items-center bg-white rounded-full w-48 h-48 px-6">
+                  <img alt="Accenture logo" src={accenture} />
+                </figure>
+              </div>
               <div className="flex flex-col gap-2">
                 <h2 className="text-3xl font-bold">
                   Accenture ATA AWS Curriculum
                 </h2>
-                <p>
+                <p className="text-justify">
                   Accenture plc is an Irish professional services company based
                   in Dublin for tax purposes. Specializing in information
                   technology (IT) services and consulting. A Fortune Global 500
@@ -320,7 +325,7 @@ const PracticumPage = ({ title }) => {
                     [2]
                   </a>
                 </p>
-                <p>
+                <p className="text-justify">
                   Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that
                   provides on-demand cloud computing platforms and APIs to
                   individuals, companies, and governments, on a metered
@@ -337,7 +342,7 @@ const PracticumPage = ({ title }) => {
                   </a>
                 </p>
                 <h3 className="text-2xl font-bold">Courses</h3>
-                <div className="mx-4 grid grid-cols-4 gap-4 text-left">
+                <div className="mx-4 grid grid-rows-4 grid-cols-none 2xl:grid-rows-none 2xl:grid-cols-4 gap-4 text-left">
                   <a
                     href="https://awseducate.instructure.com/courses/744"
                     target="_blank"
@@ -477,7 +482,8 @@ const PracticumPage = ({ title }) => {
               </div>
             </div>
 
-            <div className="flex gap-8 justify-center">
+            {/* Summary */}
+            <div className="flex flex-col lg:flex-row gap-8 justify-center">
               <div className="flex flex-col items-center">
                 <h3 className="text-2xl font-bold">Platform used</h3>
                 <figure className="flex justify-center items-center bg-white rounded-full w-48 h-16 px-6">
@@ -507,7 +513,7 @@ const PracticumPage = ({ title }) => {
 
           {/* Total Hours */}
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-2 p-8 items-center">
-            <h2 className="text-4xl font-bold font-display text-suisei-yellow">
+            <h2 className="text-2xl lg:text-4xl font-bold font-display text-suisei-yellow">
               Total Practicum Credited Hours
             </h2>
             <h2 className="text-6xl font-bold font-display">492 Hours</h2>
@@ -517,7 +523,7 @@ const PracticumPage = ({ title }) => {
           <div className="flex flex-row-reverse">
             <Link
               to="/practicum-outputs"
-              className="font-display text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-8 items-center transition ease-in-out hover:scale-105 duration-300"
+              className="font-display text-xl lg:text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-4 lg:p-8 items-center transition ease-in-out hover:scale-105 duration-300"
             >
               Outputs ▶
             </Link>

@@ -13,14 +13,18 @@ body {
   color: #ffffff;
 }
 
-.carousel {
-  height: 360px;
-}
-
 .carousel__slide {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+}
+
+.carousel__slide div div {
+  height: 400px;
+  width: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 details {
