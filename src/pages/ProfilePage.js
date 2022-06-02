@@ -8,9 +8,9 @@ const ProfilePage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-8">
-        <div className="flex flex-row justify-center items-center py-24 gap-16">
-          <figure className="w-[400px] h-[400px]">
+      <div className="mx-4 lg:mx-16 2xl:mx-48 mt-8 lg:mt-8 mb-32 flex flex-col gap-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:py-24 gap-8 lg:gap-16">
+          <figure className="lg:w-[500px] lg:h-[500px] w-[300px] h-[300px]">
             <img
               src={JL}
               alt="Portrait of John Lloyd Juanillo"
@@ -18,22 +18,24 @@ const ProfilePage = ({ title }) => {
             ></img>
           </figure>
           <div className="flex flex-col items-center gap-4">
-            <h1 className="font-display text-7xl">John Lloyd Juanillo</h1>
+            <h1 className="font-display text-4xl lg:text-5xl xl:text-7xl">
+              John Lloyd Juanillo
+            </h1>
             <div className="flex flex-col">
-              <h2 className="text-2xl">
+              <h2 className="text-xs lg:text-xl xl:text-2xl">
                 Aspiring Full-Stack, Internet of Things, and Cloud Developer
               </h2>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-3 justify-center gap-8">
+        <div className="flex flex-col xl:flex-none  xl:grid xl:grid-cols-3 justify-center gap-8">
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 border-t-[1rem] border-suisei-yellow ring-suisei-yellow flex flex-col gap-8 p-8">
-            <h2 className="font-display text-4xl">
+            <h2 className="font-display text-3xl lg:text-4xl">
               <FontAwesomeIcon icon={solid("star")} className="mr-4" />
               Personal Skills
             </h2>
-            <ul className=" ml-4 flex flex-col h-full gap-4">
+            <ul className="mx-0 lg:mx-4 flex flex-col h-full gap-2 lg:gap-4 text-sm lg:text-base">
               <li>Provides logical and critical solution to problems</li>
               <li>Creativity in arts and graphic design</li>
               <li>Outstanding leadership skills</li>
@@ -44,11 +46,11 @@ const ProfilePage = ({ title }) => {
             </ul>
           </div>
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 border-t-[1rem] border-suisei-yellow ring-suisei-yellow flex flex-col gap-8 p-8">
-            <h2 className="font-display text-4xl">
+            <h2 className="font-display text-3xl lg:text-4xl">
               <FontAwesomeIcon icon={solid("keyboard")} className="mr-4" />
               Technical Skills
             </h2>
-            <div className="mx-2 text-justify flex flex-col gap-2">
+            <div className="mx-0 lg:mx-2 flex flex-col gap-2 text-sm lg:text-base">
               <p>
                 Knowledgeable on the basic functions, controls, and hardware of
                 a modern computer desktop or laptop as well as a plethora of
@@ -74,90 +76,140 @@ const ProfilePage = ({ title }) => {
             </div>
           </div>
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 border-t-[1rem] border-suisei-yellow ring-suisei-yellow flex flex-col gap-8 p-8">
-            <h2 className="font-display text-4xl">
+            <h2 className="font-display text-3xl lg:text-4xl">
               <FontAwesomeIcon icon={solid("book-open")} className="mr-4" />
               Education
             </h2>
-            <div className="mx-2 text-justify flex flex-col gap-2">
+            <div className="mx-0 lg:mx-2 flex flex-col gap-2">
               <div className="flex flex-col gap-0">
-                <h3 className="text-2xl font-bold">
+                <h3 className="text-lg lg:text-2xl font-bold">
                   Undergraduate Degree in B.S. IT
                 </h3>
-                <h4 className="text-xl">Malayan Colleges Laguna</h4>
-                <p>Pulo-Diezmo Road, Cabuyao, 4025 Laguna</p>
-                <h2 className="font-display text-2xl">A.Y. 2018 – Ongoing</h2>
+                <h4 className="text-md lg:text-xl">Malayan Colleges Laguna</h4>
+                <p className="text-sm lg:text-base">
+                  Pulo-Diezmo Road, Cabuyao, 4025 Laguna
+                </p>
+                <h2 className="font-display text-xl lg:text-2xl">
+                  A.Y. 2018 – Ongoing
+                </h2>
               </div>
             </div>
-            <div className="mx-2 text-justify flex flex-col gap-2">
+            <div className="mx-0 lg:mx-2 flex flex-col gap-2">
               <div className="flex flex-col gap-0">
-                <h3 className="text-2xl font-bold">Senior High Graduate</h3>
-                <h4 className="text-xl">Malayan Colleges Laguna</h4>
-                <p>Pulo-Diezmo Road, Cabuyao, 4025 Laguna</p>
-                <h2 className="font-display text-2xl">A.Y. 2016 – 2018</h2>
+                <h3 className="text-lg lg:text-2xl font-bold">
+                  Senior High Graduate
+                </h3>
+                <h4 className="text-md lg:text-xl">Malayan Colleges Laguna</h4>
+                <p className="text-sm lg:text-base">
+                  Pulo-Diezmo Road, Cabuyao, 4025 Laguna
+                </p>
+                <h2 className="font-display text-xl lg:text-2xl">
+                  A.Y. 2016 – 2018
+                </h2>
               </div>
             </div>
-            <div className="mx-2 text-justify flex flex-col gap-2">
+            <div className="mx-0 lg:mx-2 flex flex-col gap-2">
               <div className="flex flex-col gap-0">
-                <h3 className="text-2xl font-bold">Junior High Graduate</h3>
-                <h4 className="text-xl">Emmanuel Christian School</h4>
-                <p>Malitlit Rd., Santa Rosa, 4026 Laguna</p>
-                <h2 className="font-display text-2xl">A.Y. 2012 – 2015</h2>
+                <h3 className="text-lg lg:text-2xl font-bold">
+                  Junior High Graduate
+                </h3>
+                <h4 className="text-md lg:text-xl">
+                  Emmanuel Christian School
+                </h4>
+                <p className="text-sm lg:text-base">
+                  Malitlit Rd., Santa Rosa, 4026 Laguna
+                </p>
+                <h2 className="font-display text-xl lg:text-2xl">
+                  A.Y. 2012 – 2015
+                </h2>
               </div>
             </div>
           </div>
         </div>
 
         <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 border-t-[1rem] border-suisei-yellow ring-suisei-yellow flex flex-col gap-8 p-8">
-          <h2 className="font-display text-4xl">
+          <h2 className="font-display text-3xl lg:text-4xl">
             <FontAwesomeIcon icon={solid("trophy")} className="mr-4" />
             Achievements
           </h2>
           <div className="flex flex-col gap-2">
             <div className="flex flex-col gap-0">
-              <h3 className="font-display text-2xl">
+              <h3 className="font-display text-lg lg:text-2xl">
                 Malayan Colleges Laguna (A.Y. 2016 – ongoing)
               </h3>
-              <h4 className="text-xl">
+              <h4 className="text-sm lg:text-xl">
                 Pulo-Diezmo Road, Cabuyao, 4025 Laguna
               </h4>
             </div>
-            <div className="ml-4 flex flex-row gap-32">
-              <ul>
-                <li>President's Lister</li>
-                <li>Dean's Lister</li>
-                <li>Academic Scholarship Grant</li>
-                <li>Certificate of Recognition (OJT Work Immersion)</li>
-                <li>
-                  Certificate of Academic Achievement (Grade 12 | 3rd Term)
-                </li>
-                <li>
-                  Certificate of Academic Achievement (Grade 12 | 2nd Term)
-                </li>
-                <li>
-                  Certificate of Academic Achievement (Grade 12 | 1st Term)
-                </li>
-                <li>
-                  Certificate of Academic Achievement (Grade 11 | 3rd Term)
-                </li>
-                <li>
-                  Certificate of Academic Achievement (Grade 11 | 2nd Term)
-                </li>
-                <li>
-                  Certificate of Academic Achievement (Grade 11 | 1st Term)
-                </li>
-              </ul>
-              <ul>
-                <li>College (3rd year up to 4th year)</li>
-                <li>College (1st year up to 2nd year)</li>
-                <li>College (1st year up to 4th year)</li>
-                <li>15th of May 2018</li>
-                <li>15th of May 2018</li>
-                <li>10th of April 2018</li>
-                <li>9th of February 2018</li>
-                <li>15th of July 2017</li>
-                <li>9th of February 2017</li>
-                <li>11th of November 2016</li>
-              </ul>
+            <div className="flex flex-col text-center items-center">
+              <div className="flex flex-col gap-4">
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    President's Lister
+                  </h5>
+                  <p className="text-sm lg:text-base">
+                    College (3rd year up to 4th year)
+                  </p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Dean's Lister
+                  </h5>
+                  <p className="text-sm lg:text-base">
+                    College (1st year up to 2nd year)
+                  </p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Academic Scholarship Grant
+                  </h5>
+                  <p className="text-sm lg:text-base">
+                    College (1st year up to 4th year)
+                  </p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Certificate of Recognition (OJT Work Immersion)
+                  </h5>
+                  <p className="text-sm lg:text-base">15th of May 2018</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Certificate of Academic Achievement (Grade 12 | 3rd Term)
+                  </h5>
+                  <p className="text-sm lg:text-base">15th of May 2018</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Certificate of Academic Achievement (Grade 12 | 2nd Term)
+                  </h5>
+                  <p className="text-sm lg:text-base">10th of April 2018</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Certificate of Academic Achievement (Grade 12 | 1st Term)
+                  </h5>
+                  <p className="text-sm lg:text-base">9th of February 2018</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Certificate of Academic Achievement (Grade 11 | 3rd Term)
+                  </h5>
+                  <p className="text-sm lg:text-base">15th of July 2017</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Certificate of Academic Achievement (Grade 11 | 2nd Term)
+                  </h5>
+                  <p className="text-sm lg:text-base">9th of February 2017</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-lg lg:text-2xl">
+                    Certificate of Academic Achievement (Grade 11 | 1st Term)
+                  </h5>
+                  <p className="text-sm lg:text-base">11th of November 2016</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

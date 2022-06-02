@@ -5,13 +5,17 @@ const ProjectsPage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-8">
-        <h1 className="font-display text-4xl">Projects</h1>
-        <div className="mx-8 flex flex-col gap-8">
+      <div className="mx-4 lg:mx-16 2xl:mx-48 mt-8 lg:mt-8 mb-32 flex flex-col gap-8">
+        <h1 className="font-display text-3xl lg:text-4xl text-center lg:text-left">
+          Projects
+        </h1>
+        <div className="flex flex-col justify-center gap-8">
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <div className="flex flex-col gap-2">
-              <h2 className="text-3xl font-bold">Mi-Amoro Capstone Thesis</h2>
-              <p>
+              <h2 className="text-xl lg:text-3xl font-bold">
+                Mi-Amoro Capstone Thesis
+              </h2>
+              <p className="text-sm lg:text-base">
                 Project Leader in Thesis Capstone Project Mi Amoro: Development
                 of an IoT-Based Welfare Monitoring and Reporting Wearable Device
                 Prototype for OFWs from the BARMM Region in completion of the
@@ -34,10 +38,10 @@ const ProjectsPage = ({ title }) => {
           </div>
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <div className="flex flex-col gap-2">
-              <h2 className="text-3xl font-bold">
+              <h2 className="text-xl lg:text-3xl font-bold">
                 Soilid IoT Plant Health Monitoring System
               </h2>
-              <p>
+              <p className="text-sm lg:text-base">
                 Project Leader in developing an IoT Plant Health Monitoring
                 System in completion of the courses IT140P, IT155P, and IT145
               </p>
@@ -58,8 +62,10 @@ const ProjectsPage = ({ title }) => {
           </div>
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <div className="flex flex-col gap-2">
-              <h2 className="text-3xl font-bold">MCL Attendance Checker</h2>
-              <p>
+              <h2 className="text-xl lg:text-3xl font-bold">
+                MCL Attendance Checker
+              </h2>
+              <p className="text-sm lg:text-base">
                 Project Leader in developing an MCL Attendance Checker
                 Application in completion of the course OJT09-1
               </p>
@@ -74,7 +80,9 @@ const ProjectsPage = ({ title }) => {
                       allow="autoplay"
                     ></iframe>
                   </div>
-                  <p>MCL Attendance Checker Android App Development Video 1</p>
+                  <p className="text-xs lg:text-base">
+                    MCL Attendance Checker Development Video 1
+                  </p>
                 </div>
 
                 <div className="flex flex-col gap-4 items-center">
@@ -87,7 +95,9 @@ const ProjectsPage = ({ title }) => {
                       allow="autoplay"
                     ></iframe>
                   </div>
-                  <p>MCL Attendance Checker Android App Development Video 2</p>
+                  <p className="text-xs lg:text-base">
+                    MCL Attendance Checker Development Video 2
+                  </p>
                 </div>
               </div>
             </div>

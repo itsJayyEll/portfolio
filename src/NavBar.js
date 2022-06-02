@@ -15,7 +15,7 @@ const NavBar = () => {
           <div className="flex items-start mb-0">
             <Link
               to="/"
-              className="flex text-suisei-yellow font-display text-7xl rounded-full focus:outline-none focus:underline decoration-2 underline-offset-4 hover:underline"
+              className="flex text-suisei-yellow font-display text-7xl rounded-full focus:outline-none decoration-2 underline-offset-4 hover:underline"
             >
               <FontAwesomeIcon
                 icon={solid("meteor")}
@@ -28,7 +28,14 @@ const NavBar = () => {
           {/* Menu */}
           <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
             <button className="flex text-3xl p-4 mr-6" onClick={toggle}>
-              <FontAwesomeIcon icon={solid("bars")} />
+              <FontAwesomeIcon
+                icon={solid("bars")}
+                className={"" + (toggleNav ? " hidden" : " ")}
+              />
+              <FontAwesomeIcon
+                icon={solid("angle-up")}
+                className={"" + (toggleNav ? " " : " hidden")}
+              />
             </button>
           </div>
 

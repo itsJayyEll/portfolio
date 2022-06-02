@@ -11,21 +11,25 @@ const PracticumAppendixPage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-8">
-        <h1 className="font-display text-4xl">Appendices</h1>
-        <div className="mx-8 flex flex-col gap-8">
+      <div className="mx-4 lg:mx-16 2xl:mx-48 mt-8 mb-32 flex flex-col gap-8">
+        <h1 className="font-display text-3xl lg:text-4xl text-center lg:text-left">
+          Appendices
+        </h1>
+        <div className="flex flex-col gap-8">
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8 ">
-            <h2 className="text-3xl font-bold">Curriculum Vitae (CV)</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold">
+              Curriculum Vitae (CV)
+            </h2>
             <details>
-              <summary className="cursor-pointer select-none">
+              <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Curriculum Vitae
               </summary>
-              <section className="flex flex-col justify-center items-center">
+              <section className="flex justify-center items-center">
                 <div className="h-[70rem] w-[53rem]">
                   <object
                     data={Resume}
                     type="application/pdf"
-                    title="Test"
+                    title="CV"
                     className="h-full w-full"
                   >
                     <div>No online PDF viewer installed</div>
@@ -34,24 +38,23 @@ const PracticumAppendixPage = ({ title }) => {
               </section>
             </details>
             <div className="flex">
-              <Link
-                to={Resume}
-                target="_blank"
+              <a
+                href={Resume}
                 download
                 className="bg-suisei-yellow rounded-xl px-5 py-3 pt-4 font-bold text-xl hover:bg-white hover:text-suisei-yellow hover:shadow-lg transition ease-in-out hover:scale-105 duration-300"
               >
                 <FontAwesomeIcon icon={solid("download")} />
                 <span className="ml-2">Download</span>
-              </Link>
+              </a>
             </div>
           </div>
 
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8 ">
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-2xl lg:text-3xl font-bold">
               Practicum Learning Module Path Proposal
             </h2>
             <details>
-              <summary className="cursor-pointer select-none">
+              <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Practicum Learning Module Path Proposal
               </summary>
               <section className="flex justify-center items-center">
@@ -59,7 +62,7 @@ const PracticumAppendixPage = ({ title }) => {
                   <object
                     data={LearningPath}
                     type="application/pdf"
-                    title="Test"
+                    title="Proposal"
                     className="h-full w-full"
                   >
                     <div>No online PDF viewer installed</div>
@@ -68,22 +71,23 @@ const PracticumAppendixPage = ({ title }) => {
               </section>
             </details>
             <div className="flex">
-              <Link
-                to={LearningPath}
-                target="_blank"
+              <a
+                href={LearningPath}
                 download
                 className="bg-suisei-yellow rounded-xl px-5 py-3 pt-4 font-bold text-xl hover:bg-white hover:text-suisei-yellow hover:shadow-lg transition ease-in-out hover:scale-105 duration-300"
               >
                 <FontAwesomeIcon icon={solid("download")} />
                 <span className="ml-2">Download</span>
-              </Link>
+              </a>
             </div>
           </div>
 
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8 ">
-            <h2 className="text-3xl font-bold">Complete Weekly Journal</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold">
+              Complete Weekly Journal
+            </h2>
             <details>
-              <summary className="cursor-pointer select-none">
+              <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Weekly Journal
               </summary>
               <section className="flex justify-center items-center">
@@ -91,7 +95,7 @@ const PracticumAppendixPage = ({ title }) => {
                   <object
                     data={WeeklyJournal}
                     type="application/pdf"
-                    title="Test"
+                    title="Journal"
                     className="h-full w-full"
                   >
                     <div>No online PDF viewer installed</div>
@@ -100,15 +104,14 @@ const PracticumAppendixPage = ({ title }) => {
               </section>
             </details>
             <div className="flex">
-              <Link
-                to={WeeklyJournal}
-                target="_blank"
+              <a
+                href={WeeklyJournal}
                 download
                 className="bg-suisei-yellow rounded-xl px-5 py-3 pt-4 font-bold text-xl hover:bg-white hover:text-suisei-yellow hover:shadow-lg transition ease-in-out hover:scale-105 duration-300"
               >
                 <FontAwesomeIcon icon={solid("download")} />
                 <span className="ml-2">Download</span>
-              </Link>
+              </a>
             </div>
           </div>
 

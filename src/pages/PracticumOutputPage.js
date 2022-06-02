@@ -24,12 +24,14 @@ const PracticumOutputPage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-8">
-        <h1 className="font-display text-4xl">Presentation of Outputs</h1>
-        <div className="mx-8 flex flex-col gap-8">
+      <div className="mx-4 lg:mx-16 2xl:mx-48 mt-8 mb-32 flex flex-col gap-8">
+        <h1 className="font-display text-3xl lg:text-4xl text-center lg:text-left">
+          Presentation of Outputs
+        </h1>
+        <div className="flex flex-col gap-8">
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8">
             <h2 className="text-3xl font-bold">LinkedIn Learning</h2>
-            <p>
+            <p className="text-sm lg:text-base">
               Here is a few screenshots and detailed discussions of the output
               from my specialization modules
             </p>
@@ -84,9 +86,9 @@ const PracticumOutputPage = ({ title }) => {
             />
           </div>
 
-          <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8 text-justify">
-            <h2 className="text-3xl font-bold">AWS Educate</h2>
-            <p>
+          <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8">
+            <h2 className="text-2xl lg:text-3xl font-bold">AWS Educate</h2>
+            <p className="text-sm lg:text-base">
               Here is the completion screenshot of the AWS Educate Interface
             </p>
             <div className="flex justify-center items-center">
@@ -98,12 +100,12 @@ const PracticumOutputPage = ({ title }) => {
                 <img alt="" src={awsCompletion}></img>
               </button>
             </div>
-            <p>
+            <p className="text-sm lg:text-base">
               Since we are advised to not take screenshots during our modules in
               Amazon Web Services, here is a detailed discussion on the tasks
               given:
             </p>
-            <p className="indent-4">
+            <p className="indent-4 text-sm lg:text-base">
               For the first course in the ATA Curriculum, I explored and had a
               hands-on experience with the AWS Management Console. Within the
               hands-on, I was able to set up an EC2 instance from navigating to
@@ -112,7 +114,7 @@ const PracticumOutputPage = ({ title }) => {
               different regions of AWS where some services may or may not be
               available.{" "}
             </p>
-            <p className="indent-4">
+            <p className="indent-4 text-sm lg:text-base">
               The next course to follow is an introduction to the cloud. These
               include the core concept of cloud computing in general and why
               businesses are migrating to a cloud based solution, the history
@@ -139,11 +141,11 @@ const PracticumOutputPage = ({ title }) => {
                 />
               </button>
             </div>
-            <p>
+            <p className="text-sm lg:text-base">
               As for the Cloud Support Engineer, it is packed with modules
               regarding platforms, networks, software development, and security.
             </p>
-            <div className="ml-8">
+            <div className="ml-8 text-sm lg:text-base">
               <ul className="list-disc list-outside">
                 <li>
                   For the first module platforms, it discusses about operating
@@ -180,13 +182,13 @@ const PracticumOutputPage = ({ title }) => {
                 </li>
               </ul>
             </div>
-            <p>
+            <p className="text-sm lg:text-base">
               For Application Developer, it has 5 modules that discusses
               architecture and DevOps, programming and scripting, web, mobile
               and gaming, structures, relational and non-relational database,
               and platforms.
             </p>
-            <div className="ml-8">
+            <div className="ml-8 text-sm lg:text-base">
               <ul className="list-disc list-outside">
                 <li>
                   The first module discusses the concept of DevOps and how it is

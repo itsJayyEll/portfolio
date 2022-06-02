@@ -7,13 +7,15 @@ const ContactPage = ({ title }) => {
   document.documentElement.scrollTo(0, 0);
   return (
     <>
-      <div className="mx-8 lg:mx-16 xl:mx-32 2xl:mx-64 mt-8 mb-32 flex flex-col gap-16">
+      <div className="mx-4 lg:mx-16 2xl:mx-48 mt-8 mb-32 flex flex-col gap-8">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <h1 className="font-display text-4xl">Contact Information</h1>
-          <div className="mx-8 flex flex-col gap-8">
+          <h1 className="font-display text-3xl lg:text-4xl text-center lg:text-left">
+            Contact Information
+          </h1>
+          <div className="flex flex-col gap-8">
             <div className="flex flex-col lg:flex-row gap-8">
               <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 border-t-[1rem] border-suisei-yellow ring-suisei-yellow flex flex-col gap-8 p-8 justify-center items-center">
-                <h2 className="font-display text-3xl">
+                <h2 className="font-display text-2xl lg:text-3xl">
                   <FontAwesomeIcon icon={solid("envelope")} className="mr-4" />
                   Business Email
                 </h2>
@@ -25,7 +27,7 @@ const ContactPage = ({ title }) => {
                 </a>
               </div>
               <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 border-t-[1rem] border-suisei-yellow ring-suisei-yellow flex flex-col gap-8 p-8 justify-center items-center">
-                <h2 className="font-display text-3xl">
+                <h2 className="font-display text-2xl lg:text-3xl">
                   <FontAwesomeIcon icon={solid("house")} className="mr-4" />
                   Personal Email
                 </h2>
@@ -41,7 +43,9 @@ const ContactPage = ({ title }) => {
         </div>
 
         <div className="flex flex-col gap-4 justify-center items-center">
-          <h1 className="font-display text-4xl">Socials</h1>
+          <h1 className="font-display text-3xl lg:text-4xl text-center lg:text-left">
+            Socials
+          </h1>
           <div className="mx-8 flex flex-row gap-4 text-7xl drop-shadow-lg">
             <a
               href="https://www.facebook.com/itsJayyEll"
