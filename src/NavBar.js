@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 const NavBar = () => {
   return (
@@ -11,7 +13,8 @@ const NavBar = () => {
               to="/"
               className="text-suisei-yellow font-display text-7xl rounded-full focus:outline-none focus:underline decoration-2 underline-offset-4 hover:underline"
             >
-              itsJayyEll
+              <FontAwesomeIcon icon={solid("meteor")} />
+              <span className="ml-2">itsJayyEll</span>
             </Link>
           </div>
           <div className="flex gap-4 items-center text-lg font-bold">

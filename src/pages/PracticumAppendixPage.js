@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Resume from "../files/JohnLloydJuanillo_Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { solid, regular } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 const PracticumAppendixPage = ({ title }) => {
   document.title = "Practicum Appendices" + title;
@@ -32,9 +32,9 @@ const PracticumAppendixPage = ({ title }) => {
               </section>
             </details>
             <div className="flex">
-              <FontAwesomeIcon icon={solid("user-secret")} />
               <button className="bg-suisei-yellow rounded-xl px-5 py-3 pt-4 font-bold text-xl hover:bg-white hover:text-suisei-yellow hover:shadow-lg transition ease-in-out hover:scale-105 duration-300">
-                Download
+                <FontAwesomeIcon icon={solid("download")} />
+                <span className="ml-2">Download</span>
               </button>
             </div>
           </div>
