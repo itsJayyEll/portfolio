@@ -6,7 +6,7 @@ import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 const NavBar = () => {
   return (
     <>
-      <nav className="bg-suisei-blue/70 text-suisei-yellow backdrop-blur-md">
+      <nav className="bg-suisei-blue/70 text-suisei-yellow backdrop-blur-md z-50">
         <div className="py-6 px-4 border-b-2 border-suisei-yellow flex gap-8 justify-center">
           <div className="flex items-start mb-4">
             <Link
