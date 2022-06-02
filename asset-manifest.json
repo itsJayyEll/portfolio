@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fd6e65ef.css",
+    "main.js": "/portfolio/static/js/main.86351e3c.js",
+    "static/media/JohnLloydJuanillo_WeeklyJournal.pdf": "/portfolio/static/media/JohnLloydJuanillo_WeeklyJournal.8d8f192b3a8a174f7810.pdf",
+    "static/media/JohnLloydJuanillo_LearningPath.pdf": "/portfolio/static/media/JohnLloydJuanillo_LearningPath.636755398a0441f292d6.pdf",
+    "static/media/React-Components-Screenshot-1.png": "/portfolio/static/media/React-Components-Screenshot-1.2aeca7d60a070e13ec58.png",
+    "static/media/React-FullStack-Screenshot-5.png": "/portfolio/static/media/React-FullStack-Screenshot-5.325dfff32f35e9f596ac.png",
+    "static/media/React-FullStack-Screenshot-1.png": "/portfolio/static/media/React-FullStack-Screenshot-1.726e62bfa387965952da.png",
+    "static/media/React-FullStack-Screenshot-2.png": "/portfolio/static/media/React-FullStack-Screenshot-2.2e19eb40b26e9fc348c6.png",
+    "static/media/React-FullStack-Screenshot-6.png": "/portfolio/static/media/React-FullStack-Screenshot-6.2a1e2247ef354ecfbc9e.png",
+    "static/media/React-FullStack-Screenshot-4.png": "/portfolio/static/media/React-FullStack-Screenshot-4.6e5f09bda532c027b0af.png",
+    "static/media/JohnLloydJuanillo_Resume.pdf": "/portfolio/static/media/JohnLloydJuanillo_Resume.b2b87dfa2a536316d7c3.pdf",
+    "static/media/Javascript-Essential-Screenshot-3.png": "/portfolio/static/media/Javascript-Essential-Screenshot-3.fac80eca39113515de8b.png",
+    "static/media/Javascript-Essential-Screenshot-1.png": "/portfolio/static/media/Javascript-Essential-Screenshot-1.8b140e964c79f341022a.png",
+    "static/media/Javascript-Essential-Screenshot-2.png": "/portfolio/static/media/Javascript-Essential-Screenshot-2.1cde244f0391ce38fcca.png",
+    "static/media/React-With-TailwindCSS-Screenshot-1.png": "/portfolio/static/media/React-With-TailwindCSS-Screenshot-1.904de647b5e3b82dc401.png",
+    "static/media/AWS-Completion.png": "/portfolio/static/media/AWS-Completion.dc5c3696538a2bcfc1eb.png",
+    "static/media/React-Essentials-Git-Log.png": "/portfolio/static/media/React-Essentials-Git-Log.4574f71836266a4b21f9.png",
+    "static/media/React-Essentials-Git-Log-OneLine.png": "/portfolio/static/media/React-Essentials-Git-Log-OneLine.026b006da96b792ea1dd.png",
+    "static/media/jl.jpg": "/portfolio/static/media/jl.6ab379c9b19ccb3b01c1.jpg",
+    "static/media/suisei-404-small.png": "/portfolio/static/media/suisei-404-small.72af06b109216a4b7c74.png",
+    "static/media/React-FullStack-Screenshot-3.png": "/portfolio/static/media/React-FullStack-Screenshot-3.a3ed1324155db2e7cc38.png",
+    "static/media/AWS-Badge.png": "/portfolio/static/media/AWS-Badge.c907d7a776e6dd692a8a.png",
+    "static/media/React-With-TailwindCSS-Git-Log.png": "/portfolio/static/media/React-With-TailwindCSS-Git-Log.05885ba49fb8d4faf1bd.png",
+    "static/media/bg.png": "/portfolio/static/media/bg.3a7ea352960e9a5aa89f.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.a95afc06831647f5fca2.png",
+    "static/media/aws.png": "/portfolio/static/media/aws.2de35c38ae53c7e96a55.png",
+    "index.html": "/portfolio/index.html",
+    "main.fd6e65ef.css.map": "/portfolio/static/css/main.fd6e65ef.css.map",
+    "main.86351e3c.js.map": "/portfolio/static/js/main.86351e3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd6e65ef.css",
+    "static/js/main.86351e3c.js"
+  ]
+}
