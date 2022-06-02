@@ -8,6 +8,7 @@ import PracticumSynthesisPage from "./pages/PracticumSynthesisPage";
 import PracticumAppendixPage from "./pages/PracticumAppendixPage";
 import ProfilePage from "./pages/ProfilePage";
 import ProjectsPage from "./pages/ProjectsPage";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   const title = " | itsJayyEll Portfolio";
@@ -36,6 +37,7 @@ const App = () => {
           path="/practicum-appendix"
           element={<PracticumAppendixPage title={title} />}
         />
+        <Route path="/contact" element={<ContactPage title={title} />} />
         <Route path="*" element={<NotFoundPage title={title} />} />
       </Routes>
     </>
