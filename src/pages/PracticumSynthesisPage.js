@@ -89,7 +89,7 @@ const PracticumSynthesisPage = ({ title }) => {
             </Link>
 
             <Link
-              to="/practicum-appendices"
+              to="/practicum-appendix"
               className="font-display text-3xl bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow p-8 items-center transition ease-in-out hover:scale-105 duration-300"
             >
               Appendices ▶
