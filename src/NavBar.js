@@ -57,12 +57,12 @@ const NavBar = () => {
             >
               Contact
             </Link>
-            <Link
+            {/* <Link
               to="/about"
               className="px-5 py-2 rounded-full pt-3 hover:bg-suisei-yellow hover:text-suisei-blue transition-colors ease-in-out duration-300"
             >
               About
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
@@ -109,7 +109,7 @@ const NavBar = () => {
               Contact
             </Link>
           </li>
-          <li className="w-full">
+          {/* <li className="w-full">
             <Link
               to="/about"
               className="mt-1 font-bold hover:bg-suisei-yellow hover:text-suisei-blue flex justify-center items-center h-16 transition-colors ease-in-out duration-300"
@@ -117,7 +117,7 @@ const NavBar = () => {
             >
               About
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>
