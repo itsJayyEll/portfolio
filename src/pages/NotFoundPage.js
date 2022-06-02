@@ -16,9 +16,7 @@ const NotFoundPage = ({ title }) => {
           ></img>
         </figure>
         <div className="flex flex-col gap-4 items-center lg:items-start">
-          <h1 className="font-display text-5xl select-none">
-            Page Not Found v2
-          </h1>
+          <h1 className="font-display text-5xl select-none">Page Not Found</h1>
           <h2 className="font-display text-2xl select-none">
             Sorry about that!
           </h2>
