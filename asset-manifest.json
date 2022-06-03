@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.712e14ea.css",
-    "main.js": "/portfolio/static/js/main.1d4c2506.js",
+    "main.js": "/portfolio/static/js/main.830f6f93.js",
     "static/media/JohnLloydJuanillo_WeeklyJournal.pdf": "/portfolio/static/media/JohnLloydJuanillo_WeeklyJournal.8d8f192b3a8a174f7810.pdf",
     "static/media/JohnLloydJuanillo_LearningPath.pdf": "/portfolio/static/media/JohnLloydJuanillo_LearningPath.636755398a0441f292d6.pdf",
+    "static/media/JohnLloydJuanillo_PracticumAcceptance.pdf": "/portfolio/static/media/JohnLloydJuanillo_PracticumAcceptance.439a323412087c850e54.pdf",
     "static/media/React-Components-Screenshot-1.png": "/portfolio/static/media/React-Components-Screenshot-1.2aeca7d60a070e13ec58.png",
     "static/media/React-FullStack-Screenshot-5.png": "/portfolio/static/media/React-FullStack-Screenshot-5.325dfff32f35e9f596ac.png",
     "static/media/React-FullStack-Screenshot-1.png": "/portfolio/static/media/React-FullStack-Screenshot-1.726e62bfa387965952da.png",
@@ -28,10 +29,10 @@
     "static/media/aws.png": "/portfolio/static/media/aws.2de35c38ae53c7e96a55.png",
     "index.html": "/portfolio/index.html",
     "main.712e14ea.css.map": "/portfolio/static/css/main.712e14ea.css.map",
-    "main.1d4c2506.js.map": "/portfolio/static/js/main.1d4c2506.js.map"
+    "main.830f6f93.js.map": "/portfolio/static/js/main.830f6f93.js.map"
   },
   "entrypoints": [
     "static/css/main.712e14ea.css",
-    "static/js/main.1d4c2506.js"
+    "static/js/main.830f6f93.js"
   ]
 }
