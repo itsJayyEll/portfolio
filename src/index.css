@@ -20,8 +20,8 @@ body {
 }
 
 .carousel__slide div div {
-  height: 400px;
-  width: 700px;
+  height: 600px;
+  width: 800px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -41,5 +41,5 @@ details.appendix[open] {
 }
 
 details.gallery[open] {
-  height: 480px;
+  height: 43em;
 }

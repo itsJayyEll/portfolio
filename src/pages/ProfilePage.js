@@ -1,5 +1,13 @@
 import React from "react";
 import JL from "../images/jl.jpg";
+import Fancybox from "../components/Fancybox";
+import Carousel from "../components/Carousel";
+import Certificate1 from "../images/certificates/certificate-1.jpg";
+import Certificate2 from "../images/certificates/certificate-2.jpg";
+import Certificate3 from "../images/certificates/certificate-3.jpg";
+import Certificate4 from "../images/certificates/certificate-4.jpg";
+import Certificate5 from "../images/certificates/certificate-5.jpg";
+import Certificate6 from "../images/certificates/certificate-6.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
@@ -212,6 +220,37 @@ const ProfilePage = ({ title }) => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 border-t-[1rem] border-suisei-yellow ring-suisei-yellow flex flex-col gap-8 p-8">
+          <h2 className="font-display text-3xl lg:text-4xl">
+            <FontAwesomeIcon icon={solid("certificate")} className="mr-4" />
+            Certificates
+          </h2>
+          <Carousel
+            className="certificates select-none"
+            items={[
+              `<div data-fancybox data-src=${Certificate1} data-caption="">
+                <div style="background-image:url(${Certificate1});"></div>
+              </div>`,
+              `<div data-fancybox data-src=${Certificate2} data-caption="">
+                <div style="background-image:url(${Certificate2});"></div>
+              </div>`,
+              `<div data-fancybox data-src=${Certificate3} data-caption="">
+                <div style="background-image:url(${Certificate3});"></div>
+              </div>`,
+              `<div data-fancybox data-src=${Certificate4} data-caption="">
+                <div style="background-image:url(${Certificate4});"></div>
+              </div>`,
+              `<div data-fancybox data-src=${Certificate5} data-caption="">
+                <div style="background-image:url(${Certificate5});"></div>
+              </div>`,
+              `<div data-fancybox data-src=${Certificate6} data-caption="">
+                <div style="background-image:url(${Certificate6});"></div>
+              </div>`,
+            ]}
+            options={{ slidesPerPage: 1, center: true }}
+          />
         </div>
       </div>
     </>
