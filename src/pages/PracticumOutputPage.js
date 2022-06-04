@@ -78,7 +78,7 @@ const PracticumOutputPage = ({ title }) => {
                 `<div data-fancybox data-src=${reactFullStack5} data-caption="I reused the articles component on an article page">
                   <div style="background-image:url(${reactFullStack5});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack6} data-caption="This is a the backend code of the full-stack website using MongoDB">
+                `<div data-fancybox data-src=${reactFullStack6} data-caption="This is the backend code of the full-stack website using MongoDB">
                   <div style="background-image:url(${reactFullStack6});"></div>
                 </div>`,
               ]}
@@ -117,7 +117,7 @@ const PracticumOutputPage = ({ title }) => {
             <p className="indent-4 text-sm lg:text-base">
               The next course to follow is an introduction to the cloud. These
               include the core concept of cloud computing in general and why
-              businesses are migrating to a cloud based solution, the history
+              businesses are migrating to a cloud-based solution, the history
               and benefits of AWS cloud computing, the core services that they
               offer, and a lab exercises regarding the said core services. What
               I liked about the lab exercises is that they use the actual AWS

@@ -10,6 +10,7 @@ const ProjectsPage = ({ title }) => {
           Projects
         </h1>
         <div className="flex flex-col justify-center gap-8">
+          {/* Mi-Amoro */}
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl lg:text-3xl font-bold">
@@ -36,6 +37,8 @@ const ProjectsPage = ({ title }) => {
               </div>
             </div>
           </div>
+
+          {/* Soilid */}
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl lg:text-3xl font-bold">
@@ -60,6 +63,65 @@ const ProjectsPage = ({ title }) => {
               </div>
             </div>
           </div>
+
+          {/* SOAP BMI Calculator */}
+          <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
+            <div className="flex flex-col gap-2">
+              <h2 className="text-xl lg:text-3xl font-bold">
+                SOAP BMI Calculator
+              </h2>
+              <p className="text-sm lg:text-base"></p>
+              <div className="w-full flex justify-center">
+                <div className="lg:w-[48rem] lg:h-[27rem] w-[32rem] h-[18rem]">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://drive.google.com/file/d/1AI9Ta_MXrQ80VFMIRts9LP1X0xnaoU9y/preview"
+                    title="SOAP BMI Calculator Mobile"
+                    allow="autoplay"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+
+              <div className="w-full flex justify-center">
+                <div className="lg:w-[48rem] lg:h-[27rem] w-[32rem] h-[18rem]">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://drive.google.com/file/d/1qvyQ5UP7mzDk0xyVW1_DjT3rY38OvzJY/preview"
+                    title="SOAP BMI Calculator Web"
+                    allow="autoplay"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Soilid */}
+          <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
+            <div className="flex flex-col gap-2">
+              <h2 className="text-xl lg:text-3xl font-bold">
+                Wemos Weather Station
+              </h2>
+              <p className="text-sm lg:text-base"></p>
+              <div className="w-full flex justify-center">
+                <div className="lg:w-[48rem] lg:h-[27rem] w-[32rem] h-[18rem]">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://drive.google.com/file/d/1viYoujP8NeZLjheSl_UBnxB_lMjJFSiP/preview"
+                    title="Wemos Weather Station"
+                    allow="autoplay"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* MCL Attendance Checker */}
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-8 p-8">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl lg:text-3xl font-bold">
@@ -78,6 +140,7 @@ const ProjectsPage = ({ title }) => {
                       height="100%"
                       title="MCL Attendance Checker Development 1"
                       allow="autoplay"
+                      allowfullscreen
                     ></iframe>
                   </div>
                   <p className="text-xs lg:text-base">
@@ -93,6 +156,7 @@ const ProjectsPage = ({ title }) => {
                       height="100%"
                       title="MCL Attendance Checker Development 2"
                       allow="autoplay"
+                      allowfullscreen
                     ></iframe>
                   </div>
                   <p className="text-xs lg:text-base">
