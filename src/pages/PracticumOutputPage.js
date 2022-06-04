@@ -157,7 +157,7 @@ const PracticumOutputPage = ({ title }) => {
                 </li>
                 <li>
                   The next module is all about networks. It talks about the
-                  architecture of cloud based computing which consists of
+                  architecture of cloud-based computing which consists of
                   components such as the front-end and back-end of the platform.
                   This is where VPC is applied as you should have a basic
                   knowledge of networking such as TCP/IP protocols, port
@@ -166,9 +166,8 @@ const PracticumOutputPage = ({ title }) => {
                 <li>
                   The next module discusses the various languages used in
                   software development. It first discusses how CLI works and an
-                  introduction to AWS CLI, then it lists down relevant
-                  langauages for AWS such as JavaScript, PHP, PowerShell, and
-                  Ruby.
+                  introduction to AWS CLI, then it lists down relevant languages
+                  for AWS such as JavaScript, PHP, PowerShell, and Ruby.
                 </li>
                 <li>
                   The last module talks about security which includes access
@@ -194,18 +193,18 @@ const PracticumOutputPage = ({ title }) => {
                   The first module discusses the concept of DevOps and how it is
                   a combination of cultural philosophies, practices, and tools
                   that help improve speed and efficiency of an organization to
-                  develop applications. It differenciates Continuous Integration
+                  develop applications. It differentiates Continuous Integration
                   with Continuous Delivery. Continuous Integration is a DevOps
                   practice that pertains to regular merging of code changes in a
                   single repository. Continuous Delivery builds on Integration
-                  and code chages are prepared for release in production. It
+                  and code changes are prepared for release in production. It
                   also discusses about the Blue/Green DevOps Deployment.
                 </li>
                 <li>
                   The next module discusses the programming and scripting
                   languages used in software development. These include Visual
                   Basic .NET, C, C#, C++, Java, Python, the Command Line
-                  Interface (CLI), JavaScript, PHP, Powershell, and Ruby. It
+                  Interface (CLI), JavaScript, PHP, PowerShell, and Ruby. It
                   mainly discusses a brief history of the language or script and
                   its use cases.
                 </li>
@@ -218,11 +217,11 @@ const PracticumOutputPage = ({ title }) => {
                   In Data and Databases module, it discusses the importance of
                   data structure in software development and why it is one of
                   the most asked questions in developer job interviews. This
-                  module also discusses the difference of Relational databases
-                  and Non-relational databases which is the overall structure of
+                  module also discusses the difference of relational databases
+                  and non-relational databases which is the overall structure of
                   relational databases are set per table while non-relational
                   databases are more flexible in its structure at the cost of
-                  added complexity in data manipluation.
+                  added complexity in data manipulation.
                 </li>
                 <li>
                   The last module discusses platforms which include a basic
