@@ -26,7 +26,7 @@ const NavBar = () => {
           </div>
 
           {/* Menu */}
-          <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
+          <div className="absolute inset-y-0 top-0 right-0 flex items-center lg:hidden h-28">
             <button className="flex text-3xl p-4 mr-6" onClick={toggle}>
               <FontAwesomeIcon
                 icon={solid("bars")}

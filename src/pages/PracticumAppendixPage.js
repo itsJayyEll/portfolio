@@ -22,7 +22,7 @@ const PracticumAppendixPage = ({ title }) => {
             <h2 className="text-2xl lg:text-3xl font-bold">
               Curriculum Vitae (CV)
             </h2>
-            <details>
+            <details className="appendix">
               <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Curriculum Vitae
               </summary>
@@ -55,7 +55,7 @@ const PracticumAppendixPage = ({ title }) => {
             <h2 className="text-2xl lg:text-3xl font-bold">
               Practicum Acceptance
             </h2>
-            <details>
+            <details className="appendix">
               <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Practicum Acceptance
               </summary>
@@ -88,7 +88,7 @@ const PracticumAppendixPage = ({ title }) => {
             <h2 className="text-2xl lg:text-3xl font-bold">
               Practicum Learning Module Path Proposal
             </h2>
-            <details>
+            <details className="appendix">
               <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Practicum Learning Module Path Proposal
               </summary>
@@ -121,7 +121,7 @@ const PracticumAppendixPage = ({ title }) => {
             <h2 className="text-2xl lg:text-3xl font-bold">
               Complete Weekly Journal
             </h2>
-            <details>
+            <details className="appendix">
               <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Weekly Journal
               </summary>
@@ -152,7 +152,7 @@ const PracticumAppendixPage = ({ title }) => {
 
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8 ">
             <h2 className="text-2xl lg:text-3xl font-bold">Final Report</h2>
-            <details>
+            <details className="appendix">
               <summary className="cursor-pointer select-none text-sm lg:text-base">
                 View Final Report
               </summary>

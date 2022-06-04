@@ -36,6 +36,10 @@ details:not([open]) {
   height: 1.25em;
 }
 
-details[open] {
+details.appendix[open] {
   height: 72em;
+}
+
+details.gallery[open] {
+  height: 480px;
 }
