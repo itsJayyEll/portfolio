@@ -4,6 +4,7 @@ import Resume from "../files/JohnLloydJuanillo_Resume.pdf";
 import LearningPath from "../files/JohnLloydJuanillo_LearningPath.pdf";
 import WeeklyJournal from "../files/JohnLloydJuanillo_WeeklyJournal.pdf";
 import Acceptance from "../files/JohnLloydJuanillo_PracticumAcceptance.pdf";
+import FinalReport from "../files/JohnLloydJuanillo_FinalReport.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
@@ -140,6 +141,37 @@ const PracticumAppendixPage = ({ title }) => {
             <div className="flex">
               <a
                 href={WeeklyJournal}
+                download
+                className="bg-suisei-yellow rounded-xl px-5 py-3 pt-4 font-bold text-xl hover:bg-white hover:text-suisei-yellow hover:shadow-lg transition ease-in-out hover:scale-105 duration-300"
+              >
+                <FontAwesomeIcon icon={solid("download")} />
+                <span className="ml-2">Download</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8 ">
+            <h2 className="text-2xl lg:text-3xl font-bold">Final Report</h2>
+            <details>
+              <summary className="cursor-pointer select-none text-sm lg:text-base">
+                View Final Report
+              </summary>
+              <section className="flex justify-center items-center">
+                <div className="h-[70rem] w-full">
+                  <object
+                    data={FinalReport}
+                    type="application/pdf"
+                    title="Final Report"
+                    className="h-full w-full"
+                  >
+                    <div>No online PDF viewer installed</div>
+                  </object>
+                </div>
+              </section>
+            </details>
+            <div className="flex">
+              <a
+                href={FinalReport}
                 download
                 className="bg-suisei-yellow rounded-xl px-5 py-3 pt-4 font-bold text-xl hover:bg-white hover:text-suisei-yellow hover:shadow-lg transition ease-in-out hover:scale-105 duration-300"
               >
