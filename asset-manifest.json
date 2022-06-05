@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.867e6afd.css",
-    "main.js": "/portfolio/static/js/main.b8aa0a27.js",
+    "main.js": "/portfolio/static/js/main.142ec1ca.js",
     "static/media/JohnLloydJuanillo_FinalReport.pdf": "/portfolio/static/media/JohnLloydJuanillo_FinalReport.bf3bd9c2966facdae680.pdf",
     "static/media/JohnLloydJuanillo_WeeklyJournal.pdf": "/portfolio/static/media/JohnLloydJuanillo_WeeklyJournal.8d8f192b3a8a174f7810.pdf",
     "static/media/miamoro-2.png": "/portfolio/static/media/miamoro-2.7d925a52c89915e68f6b.png",
@@ -16,12 +16,12 @@
     "static/media/JohnLloydJuanillo_PracticumAcceptance.pdf": "/portfolio/static/media/JohnLloydJuanillo_PracticumAcceptance.439a323412087c850e54.pdf",
     "static/media/miamoro-5.jpg": "/portfolio/static/media/miamoro-5.0f19a2828b56cf9a4569.jpg",
     "static/media/RNH-Realty-3.png": "/portfolio/static/media/RNH-Realty-3.cf7294ca4809ce55ddeb.png",
-    "static/media/certificate-4.jpg": "/portfolio/static/media/certificate-4.406720b30183d703db57.jpg",
     "static/media/soilid-2.jpg": "/portfolio/static/media/soilid-2.a1be0094a1145be6aaed.jpg",
-    "static/media/certificate-5.jpg": "/portfolio/static/media/certificate-5.97ccbd98ca35595a67bf.jpg",
     "static/media/miamoro-6.jpg": "/portfolio/static/media/miamoro-6.a30dc8ede8e2ff1f8157.jpg",
     "static/media/soilid-3.jpg": "/portfolio/static/media/soilid-3.96f29b1df8cb14d06e3e.jpg",
+    "static/media/certificate-4.jpg": "/portfolio/static/media/certificate-4.f6f97f217836d3a49004.jpg",
     "static/media/RNH-Realty-4.png": "/portfolio/static/media/RNH-Realty-4.8e129b22926582cb0bdf.png",
+    "static/media/certificate-5.jpg": "/portfolio/static/media/certificate-5.90ef2af1558b1d5a5441.jpg",
     "static/media/Pixel-Clothing-4.png": "/portfolio/static/media/Pixel-Clothing-4.b6952d22197cf3d4704e.png",
     "static/media/certificate-1.jpg": "/portfolio/static/media/certificate-1.c11c0b6ccf7380fe64c9.jpg",
     "static/media/miamoro-1.png": "/portfolio/static/media/miamoro-1.aca5e0f3363d61ba7377.png",
@@ -60,10 +60,10 @@
     "static/media/aws.png": "/portfolio/static/media/aws.2de35c38ae53c7e96a55.png",
     "index.html": "/portfolio/index.html",
     "main.867e6afd.css.map": "/portfolio/static/css/main.867e6afd.css.map",
-    "main.b8aa0a27.js.map": "/portfolio/static/js/main.b8aa0a27.js.map"
+    "main.142ec1ca.js.map": "/portfolio/static/js/main.142ec1ca.js.map"
   },
   "entrypoints": [
     "static/css/main.867e6afd.css",
-    "static/js/main.b8aa0a27.js"
+    "static/js/main.142ec1ca.js"
   ]
 }
