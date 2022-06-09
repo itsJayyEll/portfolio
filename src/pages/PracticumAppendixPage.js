@@ -60,7 +60,7 @@ const PracticumAppendixPage = ({ title }) => {
                 View Practicum Acceptance
               </summary>
               <section className="flex justify-center items-center">
-                <div className="h-[70rem] w-[53rem]">
+                <div className="h-[70rem] w-full">
                   <object
                     data={Acceptance}
                     type="application/pdf"

@@ -5,17 +5,20 @@ import Carousel from "../components/Carousel";
 import javascriptEssentials1 from "../images/screenshots/Javascript-Essential-Screenshot-1.png";
 import javascriptEssentials2 from "../images/screenshots/Javascript-Essential-Screenshot-2.png";
 import javascriptEssentials3 from "../images/screenshots/Javascript-Essential-Screenshot-3.png";
-import reactComponent1 from "../images/screenshots/React-Components-Screenshot-1.png";
+import reactComponent1 from "../images/screenshots/React-Components-Screenshot-1.jpg";
 import reactEssentialsGit2 from "../images/screenshots/React-Essentials-Git-Log-OneLine.png";
 import reactEssentialsGit1 from "../images/screenshots/React-Essentials-Git-Log.png";
-import reactInterface1 from "../images/screenshots/React-With-TailwindCSS-Screenshot-1.png";
-import reactInterfaceGit1 from "../images/screenshots/React-With-TailwindCSS-Git-Log.png";
+import reactHooks1 from "../images/screenshots/React-Fetching-with-Hooks-Screenshot-1.jpg";
+import reactHooks2 from "../images/screenshots/React-Fetching-with-Hooks-Screenshot-2.png";
+import reactFullStackGit1 from "../images/screenshots/React-FullStack-Git-Log.png";
 import reactFullStack1 from "../images/screenshots/React-FullStack-Screenshot-1.png";
 import reactFullStack2 from "../images/screenshots/React-FullStack-Screenshot-2.png";
 import reactFullStack3 from "../images/screenshots/React-FullStack-Screenshot-3.png";
 import reactFullStack4 from "../images/screenshots/React-FullStack-Screenshot-4.png";
 import reactFullStack5 from "../images/screenshots/React-FullStack-Screenshot-5.png";
 import reactFullStack6 from "../images/screenshots/React-FullStack-Screenshot-6.png";
+import reactInterface1 from "../images/screenshots/React-With-TailwindCSS-Screenshot-1.png";
+import reactInterfaceGit1 from "../images/screenshots/React-With-TailwindCSS-Git-Log.png";
 import awsCompletion from "../images/screenshots/AWS-Completion.png";
 import awsBadge from "../images/screenshots/AWS-Badge.png";
 
@@ -63,6 +66,12 @@ const PracticumOutputPage = ({ title }) => {
                 `<div data-fancybox data-src=${reactInterfaceGit1} data-caption="Here is the git log of the React interface">
                   <div style="background-image:url(${reactInterfaceGit1});"></div>
                 </div>`,
+                `<div data-fancybox data-src=${reactHooks1} data-caption="This is a sample output from the React Hooks course by Eve Porcello which fetches my profile from GitHub using an API call">
+                  <div style="background-image:url(${reactHooks1});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactHooks2} data-caption="Here is sample code with the API token key edited out">
+                  <div style="background-image:url(${reactHooks2});"></div>
+                </div>`,
                 `<div data-fancybox data-src=${reactFullStack1} data-caption="This is the output of the course React: Creating and Hosting a Full-Stack Site by Shaun Wassell">
                   <div style="background-image:url(${reactFullStack1});"></div>
                 </div>`,
@@ -80,6 +89,9 @@ const PracticumOutputPage = ({ title }) => {
                 </div>`,
                 `<div data-fancybox data-src=${reactFullStack6} data-caption="This is the backend code of the full-stack website using MongoDB">
                   <div style="background-image:url(${reactFullStack6});"></div>
+                </div>`,
+                `<div data-fancybox data-src=${reactFullStackGit1} data-caption="Here is the git log of the full-stack website">
+                  <div style="background-image:url(${reactFullStackGit1});"></div>
                 </div>`,
               ]}
               options={{ slidesPerPage: 1, center: true }}

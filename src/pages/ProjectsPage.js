@@ -10,16 +10,21 @@ import MiAmoro1 from "../images/projects/miamoro/miamoro-1.png";
 import MiAmoro2 from "../images/projects/miamoro/miamoro-2.png";
 import MiAmoro3 from "../images/projects/miamoro/miamoro-3.png";
 import MiAmoro4 from "../images/projects/miamoro/miamoro-4.png";
-import MiAmoro5 from "../images/projects/miamoro/miamoro-5.jpg";
-import MiAmoro6 from "../images/projects/miamoro/miamoro-6.jpg";
-import Soilid1 from "../images/projects/soilid/soilid-1.jpg";
-import Soilid2 from "../images/projects/soilid/soilid-2.jpg";
-import Soilid3 from "../images/projects/soilid/soilid-3.jpg";
-import Soilid4 from "../images/projects/soilid/soilid-4.jpg";
+import MiAmoro5 from "../images/projects/miamoro/miamoro-5.png";
+import MiAmoro6 from "../images/projects/miamoro/miamoro-6.png";
+import MiAmoro7 from "../images/projects/miamoro/miamoro-7.png";
+import MiAmoro8 from "../images/projects/miamoro/miamoro-8.png";
+import MiAmoro9 from "../images/projects/miamoro/miamoro-9.png";
+import Soilid1 from "../images/projects/soilid/soilid-1.png";
+import Soilid2 from "../images/projects/soilid/soilid-2.png";
+import Soilid3 from "../images/projects/soilid/soilid-3.png";
+import Soilid4 from "../images/projects/soilid/soilid-4.png";
 import Pixel1 from "../images/projects/pixelclothing/Pixel-Clothing-1.png";
 import Pixel2 from "../images/projects/pixelclothing/Pixel-Clothing-2.png";
 import Pixel3 from "../images/projects/pixelclothing/Pixel-Clothing-3.png";
 import Pixel4 from "../images/projects/pixelclothing/Pixel-Clothing-4.png";
+import Pixel5 from "../images/projects/pixelclothing/Pixel-Clothing-5.png";
+import Pixel6 from "../images/projects/pixelclothing/Pixel-Clothing-6.png";
 import RNH1 from "../images/projects/rnh/RNH-Realty-1.png";
 import RNH2 from "../images/projects/rnh/RNH-Realty-2.png";
 import RNH3 from "../images/projects/rnh/RNH-Realty-3.png";
@@ -113,6 +118,9 @@ const ProjectsPage = ({ title }) => {
                       `<div data-fancybox data-src=${MiAmoro1} data-caption="">
                         <div style="background-image:url(${MiAmoro1});"></div>
                       </div>`,
+                      `<div data-fancybox data-src=${MiAmoro7} data-caption="">
+                        <div style="background-image:url(${MiAmoro7});"></div>
+                      </div>`,
                       `<div data-fancybox data-src=${MiAmoro2} data-caption="">
                         <div style="background-image:url(${MiAmoro2});"></div>
                       </div>`,
@@ -121,6 +129,12 @@ const ProjectsPage = ({ title }) => {
                       </div>`,
                       `<div data-fancybox data-src=${MiAmoro4} data-caption="">
                         <div style="background-image:url(${MiAmoro4});"></div>
+                      </div>`,
+                      `<div data-fancybox data-src=${MiAmoro8} data-caption="">
+                        <div style="background-image:url(${MiAmoro8});"></div>
+                      </div>`,
+                      `<div data-fancybox data-src=${MiAmoro9} data-caption="">
+                        <div style="background-image:url(${MiAmoro9});"></div>
                       </div>`,
                       `<div data-fancybox data-src=${MiAmoro5} data-caption="">
                         <div style="background-image:url(${MiAmoro5});"></div>
@@ -484,6 +498,12 @@ const ProjectsPage = ({ title }) => {
                       </div>`,
                       `<div data-fancybox data-src=${Pixel4} data-caption="">
                         <div style="background-image:url(${Pixel4});"></div>
+                      </div>`,
+                      `<div data-fancybox data-src=${Pixel5} data-caption="">
+                        <div style="background-image:url(${Pixel5});"></div>
+                      </div>`,
+                      `<div data-fancybox data-src=${Pixel6} data-caption="">
+                        <div style="background-image:url(${Pixel6});"></div>
                       </div>`,
                     ]}
                     options={{ slidesPerPage: 1, center: true }}
