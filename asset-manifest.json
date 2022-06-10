@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d124a495.css",
-    "main.js": "/portfolio/static/js/main.d2a738d8.js",
+    "main.css": "/portfolio/static/css/main.eed0228b.css",
+    "main.js": "/portfolio/static/js/main.21fd0ef6.js",
     "static/media/JohnLloydJuanillo_FinalReport.pdf": "/portfolio/static/media/JohnLloydJuanillo_FinalReport.1b9fd0c4663da46e9cc5.pdf",
     "static/media/JohnLloydJuanillo_WeeklyJournal.pdf": "/portfolio/static/media/JohnLloydJuanillo_WeeklyJournal.f893e11ae4e5c9b529fa.pdf",
     "static/media/JohnLloydJuanillo_LinkedInLearningCertificates.pdf": "/portfolio/static/media/JohnLloydJuanillo_LinkedInLearningCertificates.d6d96fd47429a3aa2fa1.pdf",
     "static/media/JohnLloydJuanillo_LearningPath.pdf": "/portfolio/static/media/JohnLloydJuanillo_LearningPath.df813288694eedc81e87.pdf",
     "static/media/miamoro-2.png": "/portfolio/static/media/miamoro-2.08648ecadaca2249119d.png",
     "static/media/miamoro-3.png": "/portfolio/static/media/miamoro-3.eaa09577c158c4492cc7.png",
+    "static/media/linkedin-gantt-chart.png": "/portfolio/static/media/linkedin-gantt-chart.671e7ea437cdfae45650.png",
     "static/media/RNH-Realty-1.png": "/portfolio/static/media/RNH-Realty-1.d668e3c8f2ee3144e68a.png",
     "static/media/certificate-4.jpg": "/portfolio/static/media/certificate-4.2c5bb77921df5ba62b2e.jpg",
     "static/media/JohnLloydJuanillo_PracticumAcceptance.pdf": "/portfolio/static/media/JohnLloydJuanillo_PracticumAcceptance.efad7a0126f468f7fb4b.pdf",
@@ -42,6 +43,7 @@
     "static/media/React-Fetching-with-Hooks-Screenshot-2.png": "/portfolio/static/media/React-Fetching-with-Hooks-Screenshot-2.d55d849f421fd21fb7fa.png",
     "static/media/React-FullStack-Screenshot-5.png": "/portfolio/static/media/React-FullStack-Screenshot-5.5cbdd9117c2832cae504.png",
     "static/media/soilid-3.png": "/portfolio/static/media/soilid-3.b882e580f53876e17352.png",
+    "static/media/aws-gantt-chart.png": "/portfolio/static/media/aws-gantt-chart.fd381298dc4c81775fd4.png",
     "static/media/miamoro-1.png": "/portfolio/static/media/miamoro-1.55eb7e5814f4e27d2f4c.png",
     "static/media/certificate-1.png": "/portfolio/static/media/certificate-1.a3118f9f090a5c92c875.png",
     "static/media/React-FullStack-Screenshot-4.png": "/portfolio/static/media/React-FullStack-Screenshot-4.3d67e2af2e2e9e3f0723.png",
@@ -54,6 +56,7 @@
     "static/media/AWS-Completion.png": "/portfolio/static/media/AWS-Completion.ae2f2ba337265ee1f4b6.png",
     "static/media/bg.png": "/portfolio/static/media/bg.3a7ea352960e9a5aa89f.png",
     "static/media/Javascript-Essential-Screenshot-1.png": "/portfolio/static/media/Javascript-Essential-Screenshot-1.206b3b4dcd275857f5a1.png",
+    "static/media/linkedin-gantt-chart-small.png": "/portfolio/static/media/linkedin-gantt-chart-small.2af93b39b80fb8d2c9aa.png",
     "static/media/React-With-TailwindCSS-Screenshot-1.png": "/portfolio/static/media/React-With-TailwindCSS-Screenshot-1.48704ea62be039adedce.png",
     "static/media/Pixel-Clothing-5.png": "/portfolio/static/media/Pixel-Clothing-5.d114280191215e4232ff.png",
     "static/media/React-Essentials-Git-Log.png": "/portfolio/static/media/React-Essentials-Git-Log.539e64e7053641e0298a.png",
@@ -65,13 +68,14 @@
     "static/media/React-Essentials-Git-Log-OneLine.png": "/portfolio/static/media/React-Essentials-Git-Log-OneLine.abddf417786a3ec7f331.png",
     "static/media/AWS-Badge.png": "/portfolio/static/media/AWS-Badge.b49d733fafd569bdb4d2.png",
     "static/media/RNH-Realty-5.png": "/portfolio/static/media/RNH-Realty-5.4a0ddaf594dab7b9dd8b.png",
+    "static/media/aws-gantt-chart-small.png": "/portfolio/static/media/aws-gantt-chart-small.0364652e48f8395e0f84.png",
     "static/media/Pixel-Clothing-2.png": "/portfolio/static/media/Pixel-Clothing-2.5a8fa05d0c1594775eae.png",
     "index.html": "/portfolio/index.html",
-    "main.d124a495.css.map": "/portfolio/static/css/main.d124a495.css.map",
-    "main.d2a738d8.js.map": "/portfolio/static/js/main.d2a738d8.js.map"
+    "main.eed0228b.css.map": "/portfolio/static/css/main.eed0228b.css.map",
+    "main.21fd0ef6.js.map": "/portfolio/static/js/main.21fd0ef6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d124a495.css",
-    "static/js/main.d2a738d8.js"
+    "static/css/main.eed0228b.css",
+    "static/js/main.21fd0ef6.js"
   ]
 }
