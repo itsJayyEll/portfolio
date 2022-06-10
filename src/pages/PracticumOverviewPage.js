@@ -4,6 +4,11 @@ import linkedin from "../images/linkedin.png";
 import linkedinLearning from "../images/linkedin-learning.png";
 import accenture from "../images/accenture.png";
 import aws from "../images/aws.png";
+import Fancybox from "../components/Fancybox";
+import linkedinGantt from "../images/linkedin-gantt-chart.png";
+import linkedinGanttSmall from "../images/linkedin-gantt-chart-small.png";
+import awsGantt from "../images/aws-gantt-chart.png";
+import awsGanttSmall from "../images/aws-gantt-chart-small.png";
 
 const PracticumPage = ({ title }) => {
   document.title = "Overview of Practicum" + title;
@@ -23,7 +28,7 @@ const PracticumPage = ({ title }) => {
                   <img alt="Linkedin Learning logo" src={linkedin} />
                 </figure>
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-4">
                 <h2 className="text-2xl lg:text-3xl font-bold">
                   LinkedIn Learning Certifications
                 </h2>
@@ -247,32 +252,53 @@ const PracticumPage = ({ title }) => {
                   <h2 className="text-2xl lg:text-3xl font-bold">
                     Nature of assignments
                   </h2>
-                  <p className="text-sm lg:text-base">
-                    The nature of assignments given in LinkedIn Learning can be
-                    identified by two tasks:
-                  </p>
-                  <h3 className="block font-bold text-lg lg:text-2xl">
-                    Chapter Quiz
-                  </h3>
-                  <p className="text-sm lg:text-base ml-4 indent-4">
-                    These are given after each chapter in a learning course. It
-                    contains a few questions regarding the contents of the
-                    chapter. Your answers are given in a multiple-choice type,
-                    and you can rewatch parts of the chapter in case you get a
-                    wrong answer. Quizzes can be taken multiple times.
-                  </p>
-                  <h3 className="block font-bold text-lg lg:text-2xl">
-                    Activity/Challenge
-                  </h3>
-                  <p className="text-sm lg:text-base ml-4 indent-4">
-                    These are sometimes given in between chapters that pertain
-                    to certain hands-on activities such as coding exercises that
-                    applies the learnings covered in within the chapter.
-                    Usually, exercise files are given on the main page of the
-                    learning course and can be used to answer
-                    activities/challenges.
-                  </p>
+                  <div className="ml-0 lg:ml-4 flex flex-col gap-2">
+                    <p className="text-sm lg:text-base">
+                      The nature of assignments given in LinkedIn Learning can
+                      be identified by two tasks:
+                    </p>
+                    <h3 className="block font-bold text-lg lg:text-2xl">
+                      Chapter Quiz
+                    </h3>
+                    <p className="text-sm lg:text-base ml-4 indent-4">
+                      These are given after each chapter in a learning course.
+                      It contains a few questions regarding the contents of the
+                      chapter. Your answers are given in a multiple-choice type,
+                      and you can rewatch parts of the chapter in case you get a
+                      wrong answer. Quizzes can be taken multiple times.
+                    </p>
+                    <h3 className="block font-bold text-lg lg:text-2xl">
+                      Activity/Challenge
+                    </h3>
+                    <p className="text-sm lg:text-base ml-4 indent-4">
+                      These are sometimes given in between chapters that pertain
+                      to certain hands-on activities such as coding exercises
+                      that applies the learnings covered in within the chapter.
+                      Usually, exercise files are given on the main page of the
+                      learning course and can be used to answer
+                      activities/challenges.
+                    </p>
+                  </div>
                 </div>
+
+                {/* Completion Gantt Chart */}
+                <h2 className="text-2xl lg:text-3xl font-bold">
+                  Completion Gantt Chart
+                </h2>
+
+                <Fancybox options={{ infinite: false }}>
+                  <button
+                    data-fancybox
+                    data-src={linkedinGantt}
+                    data-caption="LinkedIn Learning Certification Duration Gantt Chart"
+                    className="border-2 border-suisei-yellow"
+                  >
+                    <img
+                      src={linkedinGanttSmall}
+                      alt="Gantt Chart of LinkedIn Learning Duration"
+                    />
+                  </button>
+                </Fancybox>
               </div>
             </div>
 
@@ -315,7 +341,7 @@ const PracticumPage = ({ title }) => {
                   <img alt="Accenture logo" src={accenture} />
                 </figure>
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-4">
                 <h2 className="text-2xl lg:text-3xl font-bold">
                   Accenture ATA AWS Curriculum
                 </h2>
@@ -450,52 +476,78 @@ const PracticumPage = ({ title }) => {
                   <h2 className="text-2xl lg:text-3xl font-bold">
                     Nature of assignments
                   </h2>
-                  <p className="text-sm lg:text-base">
-                    The nature of assignments given in AWS Educate can be
-                    identified by the following tasks:
-                  </p>
-                  <h3 className="block font-bold text-lg lg:text-2xl">
-                    Hands-on practice
-                  </h3>
-                  <p className="ml-4 indent-4 text-sm lg:text-base">
-                    These are interactive activities that are embedded in the
-                    modules that simulate how to navigate through AWS or to get
-                    more information on a certain topic.
-                  </p>
-                  <h3 className="block font-bold text-lg lg:text-2xl">Labs</h3>
-                  <p className="ml-4 indent-4 text-sm lg:text-base">
-                    These are actual laboratory exercises that launches a
-                    temporary instance of an AWS account to experience an actual
-                    deployment environment. There are given step-by-step
-                    instructions that are required to get the final output to be
-                    graded based on the accuracy of steps followed.
-                  </p>
-                  <h3 className="block font-bold text-lg lg:text-2xl">
-                    Knowledge Check
-                  </h3>
-                  <p className="ml-4 indent-4 text-sm lg:text-base">
-                    These are quizzes given after each module. They usually
-                    contain 5 randomized questions about each module. Quizzes
-                    can be taken multiple times and the highest score is
-                    recorded.
-                  </p>
-                  <h3 className="block font-bold text-lg lg:text-2xl">
-                    Final Assessment
-                  </h3>
-                  <p className="ml-4 indent-4 text-sm lg:text-base">
-                    These are final quizzes given at the end of the course. They
-                    contain randomized questions from all modules. Final
-                    Assessment can be taken multiple times and the highest score
-                    is recorded.
-                  </p>
-                  <h3 className="block font-bold text-lg lg:text-xl">Survey</h3>
-                  <p className="ml-4 indent-4 text-sm lg:text-base">
-                    Two surveys are given at the start of the course and at the
-                    end. These usually ask on the quality of learning the course
-                    provides, any suggestions regarding the course, how likely
-                    you are to recommend AWS to a relative, and if you are
-                    interested in taking an AWS Certification.
-                  </p>
+                  <div className="ml-0 lg:ml-4 flex flex-col gap-2">
+                    <p className="text-sm lg:text-base">
+                      The nature of assignments given in AWS Educate can be
+                      identified by the following tasks:
+                    </p>
+                    <h3 className="block font-bold text-lg lg:text-2xl">
+                      Hands-on practice
+                    </h3>
+                    <p className="ml-4 indent-4 text-sm lg:text-base">
+                      These are interactive activities that are embedded in the
+                      modules that simulate how to navigate through AWS or to
+                      get more information on a certain topic.
+                    </p>
+                    <h3 className="block font-bold text-lg lg:text-2xl">
+                      Labs
+                    </h3>
+                    <p className="ml-4 indent-4 text-sm lg:text-base">
+                      These are actual laboratory exercises that launches a
+                      temporary instance of an AWS account to experience an
+                      actual deployment environment. There are given
+                      step-by-step instructions that are required to get the
+                      final output to be graded based on the accuracy of steps
+                      followed.
+                    </p>
+                    <h3 className="block font-bold text-lg lg:text-2xl">
+                      Knowledge Check
+                    </h3>
+                    <p className="ml-4 indent-4 text-sm lg:text-base">
+                      These are quizzes given after each module. They usually
+                      contain 5 randomized questions about each module. Quizzes
+                      can be taken multiple times and the highest score is
+                      recorded.
+                    </p>
+                    <h3 className="block font-bold text-lg lg:text-2xl">
+                      Final Assessment
+                    </h3>
+                    <p className="ml-4 indent-4 text-sm lg:text-base">
+                      These are final quizzes given at the end of the course.
+                      They contain randomized questions from all modules. Final
+                      Assessment can be taken multiple times and the highest
+                      score is recorded.
+                    </p>
+                    <h3 className="block font-bold text-lg lg:text-xl">
+                      Survey
+                    </h3>
+                    <p className="ml-4 indent-4 text-sm lg:text-base">
+                      Two surveys are given at the start of the course and at
+                      the end. These usually ask on the quality of learning the
+                      course provides, any suggestions regarding the course, how
+                      likely you are to recommend AWS to a relative, and if you
+                      are interested in taking an AWS Certification.
+                    </p>
+                  </div>
+
+                  {/* Completion Gantt Chart */}
+                  <h2 className="text-2xl lg:text-3xl font-bold">
+                    Completion Gantt Chart
+                  </h2>
+
+                  <Fancybox options={{ infinite: false }}>
+                    <button
+                      data-fancybox
+                      data-src={awsGantt}
+                      data-caption="Accenture ATA AWS Curriculum Duration Gantt Chart"
+                      className="border-2 border-suisei-yellow"
+                    >
+                      <img
+                        src={awsGanttSmall}
+                        alt="Gantt Chart of Accenture ATA AWS Curriculum Duration"
+                      />
+                    </button>
+                  </Fancybox>
                 </div>
               </div>
             </div>
