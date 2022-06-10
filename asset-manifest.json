@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.867e6afd.css",
-    "main.js": "/portfolio/static/js/main.06e68db3.js",
+    "main.css": "/portfolio/static/css/main.d124a495.css",
+    "main.js": "/portfolio/static/js/main.d2a738d8.js",
     "static/media/JohnLloydJuanillo_FinalReport.pdf": "/portfolio/static/media/JohnLloydJuanillo_FinalReport.1b9fd0c4663da46e9cc5.pdf",
     "static/media/JohnLloydJuanillo_WeeklyJournal.pdf": "/portfolio/static/media/JohnLloydJuanillo_WeeklyJournal.f893e11ae4e5c9b529fa.pdf",
+    "static/media/JohnLloydJuanillo_LinkedInLearningCertificates.pdf": "/portfolio/static/media/JohnLloydJuanillo_LinkedInLearningCertificates.d6d96fd47429a3aa2fa1.pdf",
     "static/media/JohnLloydJuanillo_LearningPath.pdf": "/portfolio/static/media/JohnLloydJuanillo_LearningPath.df813288694eedc81e87.pdf",
     "static/media/miamoro-2.png": "/portfolio/static/media/miamoro-2.08648ecadaca2249119d.png",
     "static/media/miamoro-3.png": "/portfolio/static/media/miamoro-3.eaa09577c158c4492cc7.png",
@@ -66,11 +67,11 @@
     "static/media/RNH-Realty-5.png": "/portfolio/static/media/RNH-Realty-5.4a0ddaf594dab7b9dd8b.png",
     "static/media/Pixel-Clothing-2.png": "/portfolio/static/media/Pixel-Clothing-2.5a8fa05d0c1594775eae.png",
     "index.html": "/portfolio/index.html",
-    "main.867e6afd.css.map": "/portfolio/static/css/main.867e6afd.css.map",
-    "main.06e68db3.js.map": "/portfolio/static/js/main.06e68db3.js.map"
+    "main.d124a495.css.map": "/portfolio/static/css/main.d124a495.css.map",
+    "main.d2a738d8.js.map": "/portfolio/static/js/main.d2a738d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.867e6afd.css",
-    "static/js/main.06e68db3.js"
+    "static/css/main.d124a495.css",
+    "static/js/main.d2a738d8.js"
   ]
 }
