@@ -93,7 +93,7 @@ const ProjectsPage = ({ title }) => {
               </p>
 
               <details className="gallery">
-                <summary className="cursor-pointer select-none text-sm lg:text-base">
+                <summary className="cursor-pointer select-none text-sm lg:text-base hover:text-suisei-yellow">
                   View Gallery
                 </summary>
                 <section>
@@ -185,7 +185,7 @@ const ProjectsPage = ({ title }) => {
               </p>
 
               <details className="gallery">
-                <summary className="cursor-pointer select-none text-sm lg:text-base">
+                <summary className="cursor-pointer select-none text-sm lg:text-base hover:text-suisei-yellow">
                   View Gallery
                 </summary>
                 <section>
@@ -422,7 +422,7 @@ const ProjectsPage = ({ title }) => {
               </p>
 
               <details className="gallery">
-                <summary className="cursor-pointer select-none text-sm lg:text-base">
+                <summary className="cursor-pointer select-none text-sm lg:text-base hover:text-suisei-yellow">
                   View RNH Realty & Management Sample Screenshots
                 </summary>
                 <section>
@@ -480,7 +480,7 @@ const ProjectsPage = ({ title }) => {
               </p>
 
               <details className="gallery">
-                <summary className="cursor-pointer select-none text-sm lg:text-base">
+                <summary className="cursor-pointer select-none text-sm lg:text-base hover:text-suisei-yellow">
                   View Pixel Clothing Sample Screenshots
                 </summary>
                 <section>

@@ -19,8 +19,11 @@ import reactFullStack5 from "../images/screenshots/React-FullStack-Screenshot-5.
 import reactFullStack6 from "../images/screenshots/React-FullStack-Screenshot-6.png";
 import reactInterface1 from "../images/screenshots/React-With-TailwindCSS-Screenshot-1.png";
 import reactInterfaceGit1 from "../images/screenshots/React-With-TailwindCSS-Git-Log.png";
+import LinkedInCertificates from "../files/JohnLloydJuanillo_LinkedInLearningCertificates.pdf";
 import awsCompletion from "../images/screenshots/AWS-Completion.png";
 import awsBadge from "../images/screenshots/AWS-Badge.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 const PracticumOutputPage = ({ title }) => {
   document.title = "Practicum Outputs" + title;
@@ -51,7 +54,7 @@ const PracticumOutputPage = ({ title }) => {
                 `<div data-fancybox data-src=${javascriptEssentials3} data-caption="It requires to apply learning from JavaScript Objects to differentiate both backpacks and straps">
                     <div style="background-image:url(${javascriptEssentials3});"></div>
                   </div>`,
-                `<div data-fancybox data-src=${reactComponent1} data-caption="This is a sample layout of React framework in React.js Essential Training (2020) by Eve Porcello">
+                `<div data-fancybox data-src=${reactComponent1} data-caption="This is a sample layout of the React framework in React.js Essential Training (2020) by Eve Porcello">
                     <div style="background-image:url(${reactComponent1});"></div>
                   </div>`,
                 `<div data-fancybox data-src=${reactEssentialsGit1} data-caption="I've applied my learning in Git Essential Training: The Basics by Kevin Skoglund">
@@ -75,7 +78,7 @@ const PracticumOutputPage = ({ title }) => {
                 `<div data-fancybox data-src=${reactFullStack1} data-caption="This is the output of the course React: Creating and Hosting a Full-Stack Site by Shaun Wassell">
                   <div style="background-image:url(${reactFullStack1});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack2} data-caption="It combines almost everything I have learned in the specialization module in full stack development: Building a React application, installing TailwindCSS, configuring routes using ReactRouter, handling data with MongoDB backend">
+                `<div data-fancybox data-src=${reactFullStack2} data-caption="It combines almost everything I have learned in the specialization module in full stack development: Building a React application, installing TailwindCSS, configuring routes using ReactRouter, handling data with MongoDB backend, uploading the website in GitHub, and deploying an Amazon EC2 instance for the website">
                   <div style="background-image:url(${reactFullStack2});"></div>
                 </div>`,
                 `<div data-fancybox data-src=${reactFullStack3} data-caption="This articles page is a component I made in React that can be used in other parts of the site">
@@ -96,6 +99,37 @@ const PracticumOutputPage = ({ title }) => {
               ]}
               options={{ slidesPerPage: 1, center: true }}
             />
+
+            <h2 className="text-2xl lg:text-3xl font-bold">
+              LinkedIn Learning Certificates
+            </h2>
+            <details className="linkedin">
+              <summary className="cursor-pointer select-none text-sm lg:text-base hover:text-suisei-yellow">
+                View LinkedIn Learning Certificates
+              </summary>
+              <section className="flex justify-center items-center">
+                <div className="h-[55rem] w-full">
+                  <object
+                    data={LinkedInCertificates}
+                    type="application/pdf"
+                    title="LinkedInCertificates"
+                    className="h-full w-full"
+                  >
+                    <div>No online PDF viewer installed</div>
+                  </object>
+                </div>
+              </section>
+            </details>
+            <div className="flex">
+              <a
+                href={LinkedInCertificates}
+                download
+                className="bg-suisei-yellow rounded-xl px-5 py-3 pt-4 font-bold text-xl hover:bg-white hover:text-suisei-yellow hover:shadow-lg transition ease-in-out hover:scale-105 duration-300"
+              >
+                <FontAwesomeIcon icon={solid("download")} />
+                <span className="ml-2">Download</span>
+              </a>
+            </div>
           </div>
 
           <div className="bg-suisei-gray/70 backdrop-blur-md ring-2 ring-suisei-yellow flex flex-col gap-4 p-8">
