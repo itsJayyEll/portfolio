@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eed0228b.css",
-    "main.js": "/portfolio/static/js/main.21fd0ef6.js",
+    "main.css": "/portfolio/static/css/main.1d825fd6.css",
+    "main.js": "/portfolio/static/js/main.6946130e.js",
     "static/media/JohnLloydJuanillo_FinalReport.pdf": "/portfolio/static/media/JohnLloydJuanillo_FinalReport.1b9fd0c4663da46e9cc5.pdf",
     "static/media/JohnLloydJuanillo_WeeklyJournal.pdf": "/portfolio/static/media/JohnLloydJuanillo_WeeklyJournal.f893e11ae4e5c9b529fa.pdf",
     "static/media/JohnLloydJuanillo_LinkedInLearningCertificates.pdf": "/portfolio/static/media/JohnLloydJuanillo_LinkedInLearningCertificates.d6d96fd47429a3aa2fa1.pdf",
@@ -71,11 +71,11 @@
     "static/media/aws-gantt-chart-small.png": "/portfolio/static/media/aws-gantt-chart-small.0364652e48f8395e0f84.png",
     "static/media/Pixel-Clothing-2.png": "/portfolio/static/media/Pixel-Clothing-2.5a8fa05d0c1594775eae.png",
     "index.html": "/portfolio/index.html",
-    "main.eed0228b.css.map": "/portfolio/static/css/main.eed0228b.css.map",
-    "main.21fd0ef6.js.map": "/portfolio/static/js/main.21fd0ef6.js.map"
+    "main.1d825fd6.css.map": "/portfolio/static/css/main.1d825fd6.css.map",
+    "main.6946130e.js.map": "/portfolio/static/js/main.6946130e.js.map"
   },
   "entrypoints": [
-    "static/css/main.eed0228b.css",
-    "static/js/main.21fd0ef6.js"
+    "static/css/main.1d825fd6.css",
+    "static/js/main.6946130e.js"
   ]
 }
