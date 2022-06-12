@@ -44,60 +44,60 @@ const PracticumOutputPage = ({ title }) => {
             <Carousel
               className="select-none"
               items={[
-                `<div data-fancybox data-src=${javascriptEssentials1} data-caption="This is a sample activity in JavaScript Essential Training by Morten Rand-Hendriksen">
+                `<div data-fancybox="gallery" data-src=${javascriptEssentials1} data-caption="This is a sample activity in JavaScript Essential Training by Morten Rand-Hendriksen">
                     <div style="background-image:url(${javascriptEssentials1});">
                     </div>
                   </div>`,
-                `<div data-fancybox data-src=${javascriptEssentials2} data-caption="It requires to code a simple HTML textbox and button that can change the strap length of each backpack">
+                `<div data-fancybox="gallery" data-src=${javascriptEssentials2} data-caption="It requires to code a simple HTML textbox and button that can change the strap length of each backpack">
                     <div style="background-image:url(${javascriptEssentials2});"></div>
                   </div>`,
-                `<div data-fancybox data-src=${javascriptEssentials3} data-caption="It requires to apply learning from JavaScript Objects to differentiate both backpacks and straps">
+                `<div data-fancybox="gallery" data-src=${javascriptEssentials3} data-caption="It requires to apply learning from JavaScript Objects to differentiate both backpacks and straps">
                     <div style="background-image:url(${javascriptEssentials3});"></div>
                   </div>`,
-                `<div data-fancybox data-src=${reactComponent1} data-caption="This is a sample layout of the React framework in React.js Essential Training (2020) by Eve Porcello">
+                `<div data-fancybox="gallery" data-src=${reactComponent1} data-caption="This is a sample layout of the React framework in React.js Essential Training (2020) by Eve Porcello">
                     <div style="background-image:url(${reactComponent1});"></div>
                   </div>`,
-                `<div data-fancybox data-src=${reactEssentialsGit1} data-caption="I've applied my learning in Git Essential Training: The Basics by Kevin Skoglund">
+                `<div data-fancybox="gallery" data-src=${reactEssentialsGit1} data-caption="I've applied my learning in Git Essential Training: The Basics by Kevin Skoglund">
                   <div style="background-image:url(${reactEssentialsGit1});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactEssentialsGit2} data-caption="Here is a one-line version of the git log in the sample React layout"> 
+                `<div data-fancybox="gallery" data-src=${reactEssentialsGit2} data-caption="Here is a one-line version of the git log in the sample React layout"> 
                   <div style="background-image:url(${reactEssentialsGit2});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactInterface1} data-caption="In React.js: Building an Interface by Ray Villalobos, React JS Framework is combined with the CSS Framework TailwindCSS">
+                `<div data-fancybox="gallery" data-src=${reactInterface1} data-caption="In React.js: Building an Interface by Ray Villalobos, React JS Framework is combined with the CSS Framework TailwindCSS">
                   <div style="background-image:url(${reactInterface1});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactInterfaceGit1} data-caption="Here is the git log of the React interface">
+                `<div data-fancybox="gallery" data-src=${reactInterfaceGit1} data-caption="Here is the git log of the React interface">
                   <div style="background-image:url(${reactInterfaceGit1});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactHooks1} data-caption="This is a sample output from the React Hooks course by Eve Porcello which fetches my profile from GitHub using an API call">
+                `<div data-fancybox="gallery" data-src=${reactHooks1} data-caption="This is a sample output from the React Hooks course by Eve Porcello which fetches my profile from GitHub using an API call">
                   <div style="background-image:url(${reactHooks1});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactHooks2} data-caption="Here is sample code with the API token key edited out">
+                `<div data-fancybox="gallery" data-src=${reactHooks2} data-caption="Here is sample code with the API token key edited out">
                   <div style="background-image:url(${reactHooks2});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack1} data-caption="This is the output of the course React: Creating and Hosting a Full-Stack Site by Shaun Wassell">
+                `<div data-fancybox="gallery" data-src=${reactFullStack1} data-caption="This is the output of the course React: Creating and Hosting a Full-Stack Site by Shaun Wassell">
                   <div style="background-image:url(${reactFullStack1});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack2} data-caption="It combines almost everything I have learned in the specialization module in full stack development: Building a React application, installing TailwindCSS, configuring routes using ReactRouter, handling data with MongoDB backend, uploading the website in GitHub, and deploying an Amazon EC2 instance for the website">
+                `<div data-fancybox="gallery" data-src=${reactFullStack2} data-caption="It combines almost everything I have learned in the specialization module in full stack development: Building a React application, installing TailwindCSS, configuring routes using ReactRouter, handling data with MongoDB backend, uploading the website in GitHub, and deploying an Amazon EC2 instance for the website">
                   <div style="background-image:url(${reactFullStack2});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack3} data-caption="This articles page is a component I made in React that can be used in other parts of the site">
+                `<div data-fancybox="gallery" data-src=${reactFullStack3} data-caption="This articles page is a component I made in React that can be used in other parts of the site">
                   <div style="background-image:url(${reactFullStack3});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack4} data-caption="This is a sample article that uses a backend data to handle upvotes, names, and comments in MongoDB">
+                `<div data-fancybox="gallery" data-src=${reactFullStack4} data-caption="This is a sample article that uses a backend data to handle upvotes, names, and comments in MongoDB">
                   <div style="background-image:url(${reactFullStack4});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack5} data-caption="I reused the articles component on an article page">
+                `<div data-fancybox="gallery" data-src=${reactFullStack5} data-caption="I reused the articles component on an article page">
                   <div style="background-image:url(${reactFullStack5});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStack6} data-caption="This is the backend code of the full-stack website using MongoDB">
+                `<div data-fancybox="gallery" data-src=${reactFullStack6} data-caption="This is the backend code of the full-stack website using MongoDB">
                   <div style="background-image:url(${reactFullStack6});"></div>
                 </div>`,
-                `<div data-fancybox data-src=${reactFullStackGit1} data-caption="Here is the git log of the full-stack website">
+                `<div data-fancybox="gallery" data-src=${reactFullStackGit1} data-caption="Here is the git log of the full-stack website">
                   <div style="background-image:url(${reactFullStackGit1});"></div>
                 </div>`,
               ]}
-              options={{ slidesPerPage: 1, center: true }}
+              options={{ slidesPerPage: 1, center: true, preload: 17 }}
             />
 
             <h2 className="text-2xl lg:text-3xl font-bold">

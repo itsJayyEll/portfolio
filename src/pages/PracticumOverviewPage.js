@@ -286,19 +286,17 @@ const PracticumPage = ({ title }) => {
                   Completion Gantt Chart
                 </h2>
 
-                <Fancybox options={{ infinite: false }}>
-                  <button
-                    data-fancybox
-                    data-src={linkedinGantt}
-                    data-caption="LinkedIn Learning Certification Duration Gantt Chart"
-                    className="border-2 border-suisei-yellow"
-                  >
-                    <img
-                      src={linkedinGanttSmall}
-                      alt="Gantt Chart of LinkedIn Learning Duration"
-                    />
-                  </button>
-                </Fancybox>
+                <button
+                  data-fancybox
+                  data-src={linkedinGantt}
+                  data-caption="LinkedIn Learning Certification Duration Gantt Chart"
+                  className="border-2 border-suisei-yellow"
+                >
+                  <img
+                    src={linkedinGanttSmall}
+                    alt="Gantt Chart of LinkedIn Learning Duration"
+                  />
+                </button>
               </div>
             </div>
 
@@ -535,19 +533,17 @@ const PracticumPage = ({ title }) => {
                     Completion Gantt Chart
                   </h2>
 
-                  <Fancybox options={{ infinite: false }}>
-                    <button
-                      data-fancybox
-                      data-src={awsGantt}
-                      data-caption="Accenture ATA AWS Curriculum Duration Gantt Chart"
-                      className="border-2 border-suisei-yellow"
-                    >
-                      <img
-                        src={awsGanttSmall}
-                        alt="Gantt Chart of Accenture ATA AWS Curriculum Duration"
-                      />
-                    </button>
-                  </Fancybox>
+                  <button
+                    data-fancybox
+                    data-src={awsGantt}
+                    data-caption="Accenture ATA AWS Curriculum Duration Gantt Chart"
+                    className="border-2 border-suisei-yellow"
+                  >
+                    <img
+                      src={awsGanttSmall}
+                      alt="Gantt Chart of Accenture ATA AWS Curriculum Duration"
+                    />
+                  </button>
                 </div>
               </div>
             </div>

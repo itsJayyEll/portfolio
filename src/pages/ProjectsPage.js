@@ -34,6 +34,7 @@ import RNH5 from "../images/projects/rnh/RNH-Realty-5.png";
 const ProjectsPage = ({ title }) => {
   document.title = "Projects" + title;
   document.documentElement.scrollTo(0, 0);
+
   return (
     <>
       <div className="mx-4 lg:mx-16 2xl:mx-48 mt-8 lg:mt-8 mb-32 flex flex-col gap-8">
@@ -100,50 +101,50 @@ const ProjectsPage = ({ title }) => {
                   <Carousel
                     className="select-none"
                     items={[
-                      `<div data-fancybox data-src=${Wearable1} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${Wearable1} data-caption="">
                         <div style="background-image:url(${Wearable1});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Wearable2} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${Wearable2} data-caption="">
                         <div style="background-image:url(${Wearable2});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Wearable3} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${Wearable3} data-caption="">
                         <div style="background-image:url(${Wearable3});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Wearable4} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${Wearable4} data-caption="">
                         <div style="background-image:url(${Wearable4});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Wearable5} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${Wearable5} data-caption="">
                         <div style="background-image:url(${Wearable5});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro1} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro1} data-caption="">
                         <div style="background-image:url(${MiAmoro1});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro7} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro7} data-caption="">
                         <div style="background-image:url(${MiAmoro7});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro2} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro2} data-caption="">
                         <div style="background-image:url(${MiAmoro2});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro3} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro3} data-caption="">
                         <div style="background-image:url(${MiAmoro3});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro4} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro4} data-caption="">
                         <div style="background-image:url(${MiAmoro4});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro8} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro8} data-caption="">
                         <div style="background-image:url(${MiAmoro8});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro9} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro9} data-caption="">
                         <div style="background-image:url(${MiAmoro9});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro5} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro5} data-caption="">
                         <div style="background-image:url(${MiAmoro5});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${MiAmoro6} data-caption="">
+                      `<div data-fancybox="miamoro" data-src=${MiAmoro6} data-caption="">
                         <div style="background-image:url(${MiAmoro6});"></div>
                       </div>`,
                     ]}
-                    options={{ slidesPerPage: 1, center: true }}
+                    options={{ slidesPerPage: 1, center: true, preload: 14 }}
                   />
                 </section>
               </details>
@@ -192,20 +193,20 @@ const ProjectsPage = ({ title }) => {
                   <Carousel
                     className="select-none"
                     items={[
-                      `<div data-fancybox data-src=${Soilid1} data-caption="">
+                      `<div data-fancybox="soilid" data-src=${Soilid1} data-caption="">
                         <div style="background-image:url(${Soilid1});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Soilid2} data-caption="">
+                      `<div data-fancybox="soilid" data-src=${Soilid2} data-caption="">
                         <div style="background-image:url(${Soilid2});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Soilid3} data-caption="">
+                      `<div data-fancybox="soilid" data-src=${Soilid3} data-caption="">
                         <div style="background-image:url(${Soilid3});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Soilid4} data-caption="">
+                      `<div data-fancybox="soilid" data-src=${Soilid4} data-caption="">
                         <div style="background-image:url(${Soilid4});"></div>
                       </div>`,
                     ]}
-                    options={{ slidesPerPage: 1, center: true }}
+                    options={{ slidesPerPage: 1, center: true, preload: 4 }}
                   />
                 </section>
               </details>
@@ -429,23 +430,23 @@ const ProjectsPage = ({ title }) => {
                   <Carousel
                     className="select-none"
                     items={[
-                      `<div data-fancybox data-src=${RNH1} data-caption="">
+                      `<div data-fancybox="rnh" data-src=${RNH1} data-caption="">
                         <div style="background-image:url(${RNH1});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${RNH2} data-caption="">
+                      `<div data-fancybox="rnh" data-src=${RNH2} data-caption="">
                         <div style="background-image:url(${RNH2});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${RNH3} data-caption="">
+                      `<div data-fancybox="rnh" data-src=${RNH3} data-caption="">
                         <div style="background-image:url(${RNH3});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${RNH4} data-caption="">
+                      `<div data-fancybox="rnh" data-src=${RNH4} data-caption="">
                         <div style="background-image:url(${RNH4});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${RNH5} data-caption="">
+                      `<div data-fancybox="rnh" data-src=${RNH5} data-caption="">
                         <div style="background-image:url(${RNH5});"></div>
                       </div>`,
                     ]}
-                    options={{ slidesPerPage: 1, center: true }}
+                    options={{ slidesPerPage: 1, center: true, preload: 5 }}
                   />
                 </section>
               </details>
@@ -487,26 +488,26 @@ const ProjectsPage = ({ title }) => {
                   <Carousel
                     className="select-none"
                     items={[
-                      `<div data-fancybox data-src=${Pixel1} data-caption="">
+                      `<div data-fancybox="pixel" data-src=${Pixel1} data-caption="">
                         <div style="background-image:url(${Pixel1});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Pixel2} data-caption="">
+                      `<div data-fancybox="pixel" data-src=${Pixel2} data-caption="">
                         <div style="background-image:url(${Pixel2});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Pixel3} data-caption="">
+                      `<div data-fancybox="pixel" data-src=${Pixel3} data-caption="">
                         <div style="background-image:url(${Pixel3});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Pixel4} data-caption="">
+                      `<div data-fancybox="pixel" data-src=${Pixel4} data-caption="">
                         <div style="background-image:url(${Pixel4});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Pixel5} data-caption="">
+                      `<div data-fancybox="pixel" data-src=${Pixel5} data-caption="">
                         <div style="background-image:url(${Pixel5});"></div>
                       </div>`,
-                      `<div data-fancybox data-src=${Pixel6} data-caption="">
+                      `<div data-fancybox="pixel" data-src=${Pixel6} data-caption="">
                         <div style="background-image:url(${Pixel6});"></div>
                       </div>`,
                     ]}
-                    options={{ slidesPerPage: 1, center: true }}
+                    options={{ slidesPerPage: 1, center: true, preload: 6 }}
                   />
                 </section>
               </details>

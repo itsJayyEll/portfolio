@@ -9,6 +9,7 @@ import PracticumAppendixPage from "./pages/PracticumAppendixPage";
 import ProfilePage from "./pages/ProfilePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const title = " | itsJayyEll Portfolio";
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/contact" element={<ContactPage title={title} />} />
         <Route path="*" element={<NotFoundPage title={title} />} />
       </Routes>
+      <ScrollToTop />
     </>
   );
 };

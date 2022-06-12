@@ -27,11 +27,11 @@ const ProfilePage = ({ title }) => {
             ></img>
           </figure>
           <div className="flex flex-col items-center gap-4">
-            <h1 className="font-display text-4xl lg:text-5xl xl:text-7xl">
+            <h1 className="font-display text-3xl lg:text-5xl xl:text-6xl">
               John Lloyd Juanillo
             </h1>
             <div className="flex flex-col">
-              <h2 className="text-xs lg:text-xl xl:text-2xl">
+              <h2 className="text-xs lg:text-xl xl:text-xl">
                 Aspiring Full-Stack, Internet of Things, and Cloud Developer
               </h2>
             </div>
@@ -231,29 +231,29 @@ const ProfilePage = ({ title }) => {
           <Carousel
             className="certificates select-none"
             items={[
-              `<div data-fancybox data-src=${Certificate1} data-caption="">
+              `<div data-fancybox="certificates" data-src=${Certificate1} data-caption="">
                 <div style="background-image:url(${Certificate1});"></div>
               </div>`,
-              `<div data-fancybox data-src=${Certificate2} data-caption="">
+              `<div data-fancybox="certificates" data-src=${Certificate2} data-caption="">
                 <div style="background-image:url(${Certificate2});"></div>
               </div>`,
-              `<div data-fancybox data-src=${Certificate3} data-caption="">
+              `<div data-fancybox="certificates" data-src=${Certificate3} data-caption="">
                 <div style="background-image:url(${Certificate3});"></div>
               </div>`,
-              `<div data-fancybox data-src=${Certificate4} data-caption="">
+              `<div data-fancybox="certificates" data-src=${Certificate4} data-caption="">
                 <div style="background-image:url(${Certificate4});"></div>
               </div>`,
-              `<div data-fancybox data-src=${Certificate5} data-caption="">
+              `<div data-fancybox="certificates" data-src=${Certificate5} data-caption="">
                 <div style="background-image:url(${Certificate5});"></div>
               </div>`,
-              `<div data-fancybox data-src=${Certificate6} data-caption="">
+              `<div data-fancybox="certificates" data-src=${Certificate6} data-caption="">
                 <div style="background-image:url(${Certificate6});"></div>
               </div>`,
-              `<div data-fancybox data-src=${Certificate7} data-caption="">
+              `<div data-fancybox="certificates" data-src=${Certificate7} data-caption="">
                 <div style="background-image:url(${Certificate7});"></div>
               </div>`,
             ]}
-            options={{ slidesPerPage: 1, center: true }}
+            options={{ slidesPerPage: 1, center: true, preload: 7 }}
           />
         </div>
       </div>
